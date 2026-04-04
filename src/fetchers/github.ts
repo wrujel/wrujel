@@ -103,7 +103,7 @@ export async function fetchFeaturedProjects(): Promise<string> {
   } catch (err) {
     console.error("Failed to fetch GitHub repos:", err);
     // Fallback: static list of known pinned repos
-    return [
+    const lines = [
       "### 🚀 Featured Projects",
       "",
       "| Project | Description | Language |",
@@ -114,6 +114,7 @@ export async function fetchFeaturedProjects(): Promise<string> {
       `| [tesla-landing](https://github.com/wrujel/tesla-landing) | Tesla landing with Astro | ${languageBadge("Astro")} |`,
       `| [tetris-javascript](https://github.com/wrujel/tetris-javascript) | Classic Tetris built with JS | ${languageBadge("JavaScript")} |`,
       `| [github-history](https://github.com/wrujel/github-history) | GitHub commits & branches viewer | ${languageBadge("TypeScript")} |`,
-    ].join("\n");
+    ];
+    return lines.join("\n");
   }
 }

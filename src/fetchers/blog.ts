@@ -35,7 +35,10 @@ function parseRssItems(xml: string): RssItem[] {
   let match;
   while ((match = itemRegex.exec(xml)) !== null) {
     const block = match[1];
-    const title = block.match(/<title><!\[CDATA\[(.*?)\]\]>|<title>(.*?)<\/title>/)?.[1] ?? block.match(/<title>(.*?)<\/title>/)?.[1] ?? "";
+    const title =
+      block.match(/<title><!\[CDATA\[(.*?)\]\]>|<title>(.*?)<\/title>/)?.[1] ??
+      block.match(/<title>(.*?)<\/title>/)?.[1] ??
+      "";
     const link = block.match(/<link>(.*?)<\/link>/)?.[1] ?? "";
     const pubDate = block.match(/<pubDate>(.*?)<\/pubDate>/)?.[1] ?? "";
     if (title && link) {
@@ -86,10 +89,7 @@ async function fetchFromRss(): Promise<string | null> {
 }
 
 export async function fetchBlogPosts(): Promise<string> {
-  const lines: string[] = [
-    "### ✍️ Latest Blog Posts",
-    "",
-  ];
+  const lines: string[] = ["### ✍️ Latest Blog Posts", ""];
 
   const content = (await fetchFromApi()) ?? (await fetchFromRss());
 

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Wilfredo%20Rujel&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=Senior%20Software%20Engineer%20•%20SAP%20•%20Open%20Source%20Enthusiast&descAlignY=55&descSize=16&animation=fadeIn" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1f6feb&height=220&section=header&text=Wilfredo%20Rujel&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=Senior%20Software%20Engineer%20•%20SAP%20&descAlignY=55&descSize=16&animation=fadeIn" width="100%" />
 </p>
 
 <p align="center">
@@ -36,7 +36,7 @@ currently:
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,rust,react,nextjs,astro,tailwind,nodejs,bun,prisma,mongodb,postgres,docker,aws,vercel,cloudflare,git,github&perline=9" />
+  <img src="https://skillicons.dev/icons?i=ts,js,rust,java,spring,react,nextjs,angular,astro,tailwind,nodejs,bun,prisma,mongodb,postgres,docker,aws,vercel,cloudflare,git,github&perline=11" />
 </p>
 
 ---

@@ -98,10 +98,10 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     lines.push("| Difficulty | Solved | Progress |");
     lines.push("|:-----------|-------:|:---------|");
     for (const d of difficultyBreakdown) {
-      const bar = progressBar(d.solved, summary.solved);
-      const pct = ((d.solved / summary.solved) * 100).toFixed(1);
+      const bar = progressBar(d.solved, d.total);
+      const pct = d.total > 0 ? ((d.solved / d.total) * 100).toFixed(1) : "0.0";
       lines.push(
-        `| ${difficultyEmoji(d.difficulty)} ${d.difficulty} | ${d.solved} | \`${bar}\` ${pct}% |`,
+        `| ${difficultyEmoji(d.difficulty)} ${d.difficulty} | ${d.solved}/${d.total} | \`${bar}\` ${pct}% |`,
       );
     }
     lines.push("");
@@ -119,14 +119,6 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     }
     lines.push("");
 
-    // Top tags
-    lines.push("#### Top Topics");
-    lines.push("");
-    const topTagList = topTags.slice(0, 8);
-    lines.push(
-      topTagList.map((t) => `\`${t.tag}\``).join(" · "),
-    );
-    lines.push("");
     lines.push(
       `<p align="right"><a href="https://leetcode-tracker-qvf.pages.dev/">📊 Full Dashboard →</a></p>`,
     );
