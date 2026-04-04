@@ -7,17 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://wrujel.com"><img src="https://img.shields.io/badge/Portfolio-wrujel.com-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/wrujel"><img src="https://img.shields.io/badge/LinkedIn-wrujel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/wrujel"><img src="https://img.shields.io/badge/X-@wrujel-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="https://leetcode-tracker-qvf.pages.dev/"><img src="https://img.shields.io/badge/LeetCode-Dashboard-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=wrujel&style=for-the-badge&color=1f6feb&label=GITHUB+VIEWS" />
-</p>
-
-<p align="center">
   <a href="https://github.com/wrujel">
     <img src="https://streak-stats.demolab.com/?user=wrujel&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" />
   </a>
@@ -46,8 +35,37 @@ currently:
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,rust,java,spring,react,nextjs,angular,astro,tailwind,nodejs,bun,prisma,mongodb,postgres,docker,aws,vercel,cloudflare,git,github&perline=11" />
+  <img src="https://skillicons.dev/icons?i=ts,js,rust,java,go,py,c,cpp,wasm,spring,react,nextjs,angular,nestjs,express,django,flask,astro,svelte,threejs,html,css,tailwind,nodejs,bun,vite,bash,graphql,prisma,mongodb,mysql,sqlite,postgres,kafka,redis,elasticsearch,jenkins,docker,kubernetes,aws,azure,gcp,vercel,cloudflare,netlify,grafana,prometheus,nginx,vscode,git,github,githubactions&perline=11" />
 </p>
+
+---
+
+<!-- PROJECTS_START -->
+### 🚀 Featured Projects
+
+| Project | Description | Stars | Forks | Language |
+|:--------|:------------|------:|------:|:---------|
+| [airbnb-clone](https://github.com/wrujel/airbnb-clone) | Airbnb app clone with Next.js 13, that allows you to sear... | ⭐ 26 | 🍴 12 | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| [portfolio-web-template](https://github.com/wrujel/portfolio-web-template) |  This a project to create a web portfolio using Next.js 1... | ⭐ 4 | 🍴 0 | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| [tesla-landing](https://github.com/wrujel/tesla-landing) | Tesla landing with Astro and Tailwind, fully responsive d... | ⭐ 3 | 🍴 0 | ![Astro](https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) |
+| [netflix-clone](https://github.com/wrujel/netflix-clone) | App inspired by Netflix, built with Next.js, Typescript, ... | ⭐ 2 | 🍴 0 | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
+| [django-crud-react](https://github.com/wrujel/django-crud-react) | This project is a simple REST API with Django and React. | ⭐ 2 | 🍴 0 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
+| [tetris-javascript](https://github.com/wrujel/tetris-javascript) | A modern implementation of the classic Tetris game, built... | ⭐ 1 | 🍴 1 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) |
+<!-- PROJECTS_END -->
+
+---
+
+<!-- BLOG_START -->
+### ✍️ Latest Blog Posts
+
+- [**React Server Actions: Patterns, Pitfalls, and Production Use**](https://wrujel.com/blog/react-server-actions-patterns-pitfalls-production-381b58) — Mar 31, 2026 · `frontend`
+- [**Finite State Machines for Complex UI Logic in TypeScript**](https://wrujel.com/blog/finite-state-machines-complex-ui-logic-typescript-60ffc5) — Mar 29, 2026 · `frontend`
+- [**Worker Threads in Node.js: Offloading CPU-Bound Work Without Blocking**](https://wrujel.com/blog/worker-threads-nodejs-cpu-bound-work-de8329) — Mar 29, 2026 · `backend`
+- [**Error Handling in TypeScript: Patterns That Scale**](https://wrujel.com/blog/error-handling-patterns-typescript-005a97) — Mar 27, 2026 · `engineering`
+- [**Testing Strategies for Modern Web Apps: What Actually Works**](https://wrujel.com/blog/testing-strategies-for-modern-web-apps) — Mar 26, 2026 · `engineering`
+
+<p align="right"><a href="https://wrujel.com/blog">📖 Read more →</a></p>
+<!-- BLOG_END -->
 
 ---
 
@@ -79,35 +97,6 @@ currently:
 
 ---
 
-<!-- BLOG_START -->
-### ✍️ Latest Blog Posts
-
-- [**React Server Actions: Patterns, Pitfalls, and Production Use**](https://wrujel.com/blog/react-server-actions-patterns-pitfalls-production-381b58) — Mar 31, 2026 · `frontend`
-- [**Finite State Machines for Complex UI Logic in TypeScript**](https://wrujel.com/blog/finite-state-machines-complex-ui-logic-typescript-60ffc5) — Mar 29, 2026 · `frontend`
-- [**Worker Threads in Node.js: Offloading CPU-Bound Work Without Blocking**](https://wrujel.com/blog/worker-threads-nodejs-cpu-bound-work-de8329) — Mar 29, 2026 · `backend`
-- [**Error Handling in TypeScript: Patterns That Scale**](https://wrujel.com/blog/error-handling-patterns-typescript-005a97) — Mar 27, 2026 · `engineering`
-- [**Testing Strategies for Modern Web Apps: What Actually Works**](https://wrujel.com/blog/testing-strategies-for-modern-web-apps) — Mar 26, 2026 · `engineering`
-
-<p align="right"><a href="https://wrujel.com/blog">📖 Read more →</a></p>
-<!-- BLOG_END -->
-
----
-
-<!-- PROJECTS_START -->
-### 🚀 Featured Projects
-
-| Project | Description | Stars | Forks | Language |
-|:--------|:------------|------:|------:|:---------|
-| [airbnb-clone](https://github.com/wrujel/airbnb-clone) | Airbnb app clone with Next.js 13, that allows you to sear... | ⭐ 26 | 🍴 12 | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [portfolio-web-template](https://github.com/wrujel/portfolio-web-template) |  This a project to create a web portfolio using Next.js 1... | ⭐ 4 | 🍴 0 | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [tesla-landing](https://github.com/wrujel/tesla-landing) | Tesla landing with Astro and Tailwind, fully responsive d... | ⭐ 3 | 🍴 0 | ![Astro](https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white) |
-| [netflix-clone](https://github.com/wrujel/netflix-clone) | App inspired by Netflix, built with Next.js, Typescript, ... | ⭐ 2 | 🍴 0 | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-| [django-crud-react](https://github.com/wrujel/django-crud-react) | This project is a simple REST API with Django and React. | ⭐ 2 | 🍴 0 | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) |
-| [tetris-javascript](https://github.com/wrujel/tetris-javascript) | A modern implementation of the classic Tetris game, built... | ⭐ 1 | 🍴 1 | ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white) |
-<!-- PROJECTS_END -->
-
----
-
 <!--
 ### 📊 GitHub Stats
 
@@ -125,7 +114,7 @@ currently:
 </p>
 -->
 
----
+<!-- --- -->
 
 <!--
 ### 🏆 GitHub Trophies
@@ -135,7 +124,7 @@ currently:
 </p>
 -->
 
----
+<!-- --- -->
 
 ### 📈 Contribution Graph
 

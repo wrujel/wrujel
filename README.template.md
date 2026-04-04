@@ -7,17 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://wrujel.com"><img src="https://img.shields.io/badge/Portfolio-wrujel.com-1f6feb?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-  <a href="https://linkedin.com/in/wrujel"><img src="https://img.shields.io/badge/LinkedIn-wrujel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://twitter.com/wrujel"><img src="https://img.shields.io/badge/X-@wrujel-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-  <a href="https://leetcode-tracker-qvf.pages.dev/"><img src="https://img.shields.io/badge/LeetCode-Dashboard-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=wrujel&style=for-the-badge&color=1f6feb&label=GITHUB+VIEWS" />
-</p>
-
-<p align="center">
   <a href="https://github.com/wrujel">
     <img src="https://streak-stats.demolab.com/?user=wrujel&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" />
   </a>
@@ -46,13 +35,13 @@ currently:
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,rust,java,spring,react,nextjs,angular,astro,tailwind,nodejs,bun,prisma,mongodb,postgres,docker,aws,vercel,cloudflare,git,github&perline=11" />
+  <img src="https://skillicons.dev/icons?i=ts,js,rust,java,go,py,c,cpp,wasm,spring,react,nextjs,angular,nestjs,express,django,flask,astro,svelte,threejs,html,css,tailwind,nodejs,bun,vite,bash,graphql,prisma,mongodb,mysql,sqlite,postgres,kafka,redis,elasticsearch,jenkins,docker,kubernetes,aws,azure,gcp,vercel,cloudflare,netlify,grafana,prometheus,nginx,vscode,git,github,githubactions&perline=11" />
 </p>
 
 ---
 
-<!-- LEETCODE_START -->
-<!-- LEETCODE_END -->
+<!-- PROJECTS_START -->
+<!-- PROJECTS_END -->
 
 ---
 
@@ -61,8 +50,8 @@ currently:
 
 ---
 
-<!-- PROJECTS_START -->
-<!-- PROJECTS_END -->
+<!-- LEETCODE_START -->
+<!-- LEETCODE_END -->
 
 ---
 
@@ -83,7 +72,7 @@ currently:
 </p>
 -->
 
----
+<!-- --- -->
 
 <!--
 ### 🏆 GitHub Trophies
@@ -93,7 +82,7 @@ currently:
 </p>
 -->
 
----
+<!-- --- -->
 
 ### 📈 Contribution Graph
 
