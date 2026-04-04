@@ -17,6 +17,12 @@
   <img src="https://komarev.com/ghpvc/?username=wrujel&style=for-the-badge&color=1f6feb&label=GITHUB+VIEWS" />
 </p>
 
+<p align="center">
+  <a href="https://github.com/wrujel">
+    <img src="https://streak-stats.demolab.com/?user=wrujel&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" />
+  </a>
+</p>
+
 ---
 
 ### 👋 About Me
@@ -98,6 +104,7 @@ currently:
 
 ---
 
+<!--
 ### 📊 GitHub Stats
 
 <p align="center">
@@ -112,14 +119,17 @@ currently:
     <img src="https://streak-stats.demolab.com/?user=wrujel&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" />
   </a>
 </p>
+-->
 
 ---
 
+<!--
 ### 🏆 GitHub Trophies
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=wrujel&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=6" />
 </p>
+-->
 
 ---
 
