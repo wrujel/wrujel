@@ -1,0 +1,105 @@
+name: README Health Check
+
+on:
+  workflow_run:
+    workflows: ["Update README"]
+    types:
+      - completed
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Report upstream status
+        run: |
+          CONCLUSION="${{ github.event.workflow_run.conclusion }}"
+          echo "Upstream Update README workflow finished with: $CONCLUSION"
+          if [ "$CONCLUSION" != "success" ]; then
+            echo "::warning::Upstream workflow did not succeed: $CONCLUSION"
+          fi
+
+      - name: Check external URLs
+        id: url-checks
+        run: |
+          FAILURES=0
+
+          check_url() {
+            local NAME="$1"
+            local URL="$2"
+            local STATUS
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 --retry 2 "$URL")
+            if echo "$STATUS" | grep -qE "^(200|204|206|301|302|303)$"; then
+              echo "✅ $NAME — HTTP $STATUS"
+            else
+              echo "❌ $NAME — HTTP $STATUS ($URL)"
+              FAILURES=$((FAILURES + 1))
+            fi
+          }
+
+          check_url "capsule-render"    "https://capsule-render.vercel.app"
+          check_url "readme-typing-svg" "https://readme-typing-svg.demolab.com"
+          check_url "streak-stats"      "https://streak-stats.demolab.com"
+          check_url "skillicons"        "https://skillicons.dev"
+          check_url "wrujel.com"        "https://wrujel.com"
+          check_url "leetcode-tracker"  "https://leetcode-tracker-qvf.pages.dev"
+          check_url "blog-api"          "https://wrujel.com/api/blog/latest"
+
+          echo "failures=$FAILURES" >> "$GITHUB_OUTPUT"
+
+      - name: Check live README is reachable
+        id: readme-check
+        run: |
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 \
+            "https://raw.githubusercontent.com/${{ github.repository }}/main/README.md")
+          echo "status=$STATUS" >> "$GITHUB_OUTPUT"
+          if [ "$STATUS" != "200" ]; then
+            echo "::error::Live README returned HTTP $STATUS"
+          fi
+
+      - name: Write job summary
+        run: |
+          CONCLUSION="${{ github.event.workflow_run.conclusion }}"
+          UPSTREAM_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}"
+          README_STATUS="${{ steps.readme-check.outputs.status }}"
+          FAILURES="${{ steps.url-checks.outputs.failures }}"
+          {
+            echo "## README Health Check — $(date -u '+%Y-%m-%d %H:%M UTC')"
+            echo ""
+            echo "| Check | Result |"
+            echo "|:------|:-------|"
+            echo "| Upstream build | $( [ "$CONCLUSION" = "success" ] && echo '✅ success' || echo "❌ $CONCLUSION" ) |"
+            echo "| Live README (raw) | $( [ "$README_STATUS" = "200" ] && echo '✅ 200' || echo "❌ $README_STATUS" ) |"
+            echo "| Failed external URLs | $( [ "$FAILURES" = "0" ] && echo '✅ 0' || echo "❌ $FAILURES" ) |"
+            echo ""
+            echo "[View upstream run]($UPSTREAM_URL)"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open issue on failure
+        if: ${{ github.event.workflow_run.conclusion != 'success' || steps.url-checks.outputs.failures != '0' || steps.readme-check.outputs.status != '200' }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          CONCLUSION="${{ github.event.workflow_run.conclusion }}"
+          FAILURES="${{ steps.url-checks.outputs.failures }}"
+          README_STATUS="${{ steps.readme-check.outputs.status }}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          UPSTREAM_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.event.workflow_run.id }}"
+          DATE="$(date -u '+%Y-%m-%d at %H:%M UTC')"
+
+          gh issue create \
+            --repo "${{ github.repository }}" \
+            --title "README health check failed — $(date -u '+%Y-%m-%d')" \
+            --body "The daily README health check detected issues on $DATE.
+              **Upstream build status:** $CONCLUSION
+              **Live README (HTTP):** $README_STATUS
+              **Failed external URLs:** $FAILURES
+
+              | Run | Link |
+              |:----|:-----|
+              | Health check | $RUN_URL |
+              | Upstream build | $UPSTREAM_URL |"

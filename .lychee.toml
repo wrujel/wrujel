@@ -1,0 +1,15 @@
+# Timeout per URL in seconds
+timeout = 30
+
+# Retry each URL this many times before reporting failure
+max_retries = 2
+
+# Skip these URL patterns (regex)
+exclude = [
+  # GitHub anchor fragments cause false positives in link checkers
+  "github\\.com/.*#",
+  # img.shields.io has intermittent reliability
+  "img\\.shields\\.io",
+  # Local asset path, not a real URL
+  "profile-3d-contrib",
+]

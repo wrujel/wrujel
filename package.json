@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bun run src/build-readme.ts"
+    "build": "bun run src/build-readme.ts",
+    "validate": "bun run src/validate-readme.ts"
   },
   "devDependencies": {
     "@types/bun": "^1.2.0",

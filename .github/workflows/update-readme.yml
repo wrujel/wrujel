@@ -29,6 +29,15 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: bun run build
 
+      - name: Validate README content
+        run: bun run validate
+
+      - name: Check links in README
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config .lychee.toml --no-progress README.md
+          fail: true
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
