@@ -4,6 +4,9 @@ timeout = 30
 # Retry each URL this many times before reporting failure
 max_retries = 2
 
+# Accept these HTTP status codes as valid (429 = rate-limited but reachable)
+accept = [200, 204, 206, 301, 302, 303, 429]
+
 # Skip these URL patterns (regex)
 exclude = [
   # GitHub anchor fragments cause false positives in link checkers
