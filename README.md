@@ -58,11 +58,11 @@ currently:
 <!-- BLOG_START -->
 ### ✍️ Latest Blog Posts
 
+- [**HTTP Caching Demystified: Cache-Control, ETags, and CDN Strategies**](https://wrujel.com/blog/http-caching-cache-control-etags-cdn-strategies-cfce0a) — Apr 4, 2026 · `backend`
 - [**React Server Actions: Patterns, Pitfalls, and Production Use**](https://wrujel.com/blog/react-server-actions-patterns-pitfalls-production-381b58) — Apr 1, 2026 · `frontend`
 - [**Finite State Machines for Complex UI Logic in TypeScript**](https://wrujel.com/blog/finite-state-machines-complex-ui-logic-typescript-60ffc5) — Mar 30, 2026 · `frontend`
 - [**Worker Threads in Node.js: Offloading CPU-Bound Work Without Blocking**](https://wrujel.com/blog/worker-threads-nodejs-cpu-bound-work-de8329) — Mar 30, 2026 · `backend`
 - [**Error Handling in TypeScript: Patterns That Scale**](https://wrujel.com/blog/error-handling-patterns-typescript-005a97) — Mar 28, 2026 · `engineering`
-- [**Testing Strategies for Modern Web Apps: What Actually Works**](https://wrujel.com/blog/testing-strategies-for-modern-web-apps) — Mar 27, 2026 · `engineering`
 
 <p align="right"><a href="https://wrujel.com/blog">📖 Read more →</a></p>
 <!-- BLOG_END -->
