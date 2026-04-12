@@ -32,7 +32,7 @@ jobs:
             local NAME="$1"
             local URL="$2"
             local STATUS
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 --retry 2 "$URL")
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 --retry 2 "$URL") || true
             if echo "$STATUS" | grep -qE "^(200|204|206|301|302|303)$"; then
               echo "✅ $NAME — HTTP $STATUS"
             else
