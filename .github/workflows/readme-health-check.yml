@@ -32,7 +32,7 @@ jobs:
             local NAME="$1"
             local URL="$2"
             local STATUS
-            STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 --retry 2 "$URL" 2>&1 || echo "000")
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 --retry 2 "$URL" || echo "000")
             if echo "$STATUS" | grep -qE "^(200|204|206|301|302|303)$"; then
               echo "✅ $NAME — HTTP $STATUS"
             else
@@ -55,7 +55,7 @@ jobs:
         id: readme-check
         run: |
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 15 \
-            "https://raw.githubusercontent.com/${{ github.repository }}/main/README.md" 2>&1 || echo "000")
+            "https://raw.githubusercontent.com/${{ github.repository }}/main/README.md" || echo "000")
           echo "status=$STATUS" >> "$GITHUB_OUTPUT"
           if [ "$STATUS" != "200" ]; then
             echo "::error::Live README returned HTTP $STATUS"
