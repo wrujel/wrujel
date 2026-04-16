@@ -58,7 +58,16 @@ function replaceSection(
 async function main() {
   console.log("📝 Building README.md...\n");
 
-  const template = await readFile(TEMPLATE_PATH, "utf-8");
+  // Use existing README.md as base so failed sections preserve last-good content.
+  // Fall back to the template on first run when README.md doesn't exist yet.
+  let template: string;
+  try {
+    template = await readFile(OUTPUT_PATH, "utf-8");
+    console.log("📂 Using existing README.md as base\n");
+  } catch {
+    template = await readFile(TEMPLATE_PATH, "utf-8");
+    console.log("📄 Using README.template.md as base\n");
+  }
 
   // Fetch all sections in parallel
   const results = await Promise.allSettled(

@@ -96,9 +96,7 @@ export async function fetchBlogPosts(): Promise<string> {
   if (content) {
     lines.push(content);
   } else {
-    lines.push(
-      "> Blog posts coming soon! Visit [wrujel.com/blog](https://blog.wrujel.com/) for updates.",
-    );
+    throw new Error("Failed to fetch blog posts from API and RSS feed");
   }
 
   lines.push("");
