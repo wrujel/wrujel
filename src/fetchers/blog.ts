@@ -17,8 +17,8 @@ interface RssItem {
   pubDate: string;
 }
 
-const BLOG_API = "https://wrujel.com/api/blog/latest";
-const BLOG_RSS = "https://wrujel.com/feed.xml";
+const BLOG_API = "https://blog.wrujel.com/api/latest";
+const BLOG_RSS = "https://blog.wrujel.com/feed.xml";
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
@@ -97,13 +97,13 @@ export async function fetchBlogPosts(): Promise<string> {
     lines.push(content);
   } else {
     lines.push(
-      "> Blog posts coming soon! Visit [wrujel.com/blog](https://wrujel.com/blog) for updates.",
+      "> Blog posts coming soon! Visit [wrujel.com/blog](https://blog.wrujel.com/) for updates.",
     );
   }
 
   lines.push("");
   lines.push(
-    `<p align="right"><a href="https://wrujel.com/blog">📖 Read more →</a></p>`,
+    `<p align="right"><a href="https://blog.wrujel.com/">📖 Read more →</a></p>`,
   );
 
   return lines.join("\n");
