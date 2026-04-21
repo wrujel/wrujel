@@ -58,13 +58,13 @@ currently:
 <!-- BLOG_START -->
 ### ✍️ Latest Blog Posts
 
-- [**Composable Middleware Pipelines in TypeScript**](https://wrujel.com/blog/composable-middleware-pipelines-typescript-017190) — Apr 12, 2026 · `backend`
-- [**Runtime Type Safety with Zod: Validating at Every Boundary**](https://wrujel.com/blog/runtime-type-safety-zod-validation-boundaries-ed4ad0) — Apr 11, 2026 · `engineering`
-- [**HTTP Caching Demystified: Cache-Control, ETags, and CDN Strategies**](https://wrujel.com/blog/http-caching-cache-control-etags-cdn-strategies-cfce0a) — Apr 4, 2026 · `backend`
-- [**React Server Actions: Patterns, Pitfalls, and Production Use**](https://wrujel.com/blog/react-server-actions-patterns-pitfalls-production-381b58) — Apr 1, 2026 · `frontend`
-- [**Finite State Machines for Complex UI Logic in TypeScript**](https://wrujel.com/blog/finite-state-machines-complex-ui-logic-typescript-60ffc5) — Mar 30, 2026 · `frontend`
+- [**Graceful Shutdown in Node.js Production Services**](https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770) — Apr 18, 2026 · `backend`
+- [**Composable Middleware Pipelines in TypeScript**](https://blog.wrujel.com/composable-middleware-pipelines-typescript-017190) — Apr 12, 2026 · `backend`
+- [**Runtime Type Safety with Zod: Validating at Every Boundary**](https://blog.wrujel.com/runtime-type-safety-zod-validation-boundaries-ed4ad0) — Apr 11, 2026 · `engineering`
+- [**HTTP Caching Demystified: Cache-Control, ETags, and CDN Strategies**](https://blog.wrujel.com/http-caching-cache-control-etags-cdn-strategies-cfce0a) — Apr 4, 2026 · `backend`
+- [**React Server Actions: Patterns, Pitfalls, and Production Use**](https://blog.wrujel.com/react-server-actions-patterns-pitfalls-production-381b58) — Apr 1, 2026 · `frontend`
 
-<p align="right"><a href="https://wrujel.com/blog">📖 Read more →</a></p>
+<p align="right"><a href="https://blog.wrujel.com/">📖 Read more →</a></p>
 <!-- BLOG_END -->
 
 ---
