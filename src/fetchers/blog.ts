@@ -5,6 +5,8 @@ interface BlogPost {
   category: string;
   description: string;
   url: string;
+  readingTime?: number;
+  image?: string | null;
 }
 
 interface BlogApiResponse {
@@ -27,6 +29,14 @@ function formatDate(dateStr: string): string {
     day: "numeric",
     year: "numeric",
   });
+}
+
+function getThumbUrl(url: string): string {
+  return url.replace("/upload/", "/upload/w_56,h_56,c_fill/");
+}
+
+function truncate(text: string, max: number): string {
+  return text.length > max ? text.slice(0, max).trimEnd() + "…" : text;
 }
 
 function parseRssItems(xml: string): RssItem[] {
@@ -56,13 +66,29 @@ async function fetchFromApi(): Promise<string | null> {
     const json = (await res.json()) as BlogApiResponse;
     if (!json.posts?.length) return null;
 
-    const lines: string[] = [];
+    const rows: string[] = [];
     for (const post of json.posts) {
-      lines.push(
-        `- [**${post.title}**](${post.url}) — ${formatDate(post.date)} · \`${post.category}\``,
+      const thumb = post.image
+        ? `<a href="${post.url}"><img src="${getThumbUrl(post.image)}" width="56" height="56" /></a>`
+        : `<a href="${post.url}">📝</a>`;
+
+      const metaParts: string[] = [];
+      if (post.date) metaParts.push(`📅 ${formatDate(post.date)}`);
+      if (post.category) metaParts.push(`🏷️ ${post.category}`);
+      if (post.readingTime) metaParts.push(`⏱ ${post.readingTime} min read`);
+      const meta = metaParts.length ? `<sub>${metaParts.join(" · ")}</sub>` : "";
+
+      rows.push(
+        `  <tr>\n` +
+        `    <td width="60" align="center" valign="top">${thumb}</td>\n` +
+        `    <td valign="top"><a href="${post.url}"><b>${post.title}</b></a><br><sub>${truncate(post.description, 80)}</sub></td>\n` +
+        `    <td align="right" valign="top" nowrap>${meta}</td>\n` +
+        `  </tr>\n` +
+        `  <tr><td colspan="3" height="6"></td></tr>`,
       );
     }
-    return lines.join("\n");
+
+    return `<table>\n${rows.join("\n")}\n</table>`;
   } catch {
     return null;
   }

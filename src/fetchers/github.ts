@@ -99,6 +99,10 @@ export async function fetchFeaturedProjects(): Promise<string> {
       );
     }
 
+    lines.push(
+      "",
+      `<p align="right"><a href="https://wrujel.com/projects">🚀 More Projects →</a></p>`,
+    );
     return lines.join("\n");
   } catch (err) {
     console.error("Failed to fetch GitHub repos:", err);
@@ -114,6 +118,8 @@ export async function fetchFeaturedProjects(): Promise<string> {
       `| [tesla-landing](https://github.com/wrujel/tesla-landing) | Tesla landing with Astro | ${languageBadge("Astro")} |`,
       `| [tetris-javascript](https://github.com/wrujel/tetris-javascript) | Classic Tetris built with JS | ${languageBadge("JavaScript")} |`,
       `| [github-history](https://github.com/wrujel/github-history) | GitHub commits & branches viewer | ${languageBadge("TypeScript")} |`,
+      "",
+      `<p align="right"><a href="https://wrujel.com/projects">🚀 More Projects →</a></p>`,
     ];
     return lines.join("\n");
   }

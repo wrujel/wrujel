@@ -56,19 +56,29 @@ function difficultyEmoji(difficulty: string): string {
   }
 }
 
-function languageEmoji(lang: string): string {
-  const map: Record<string, string> = {
-    rust: "🦀",
-    typescript: "🔷",
-    python: "🐍",
-    pandas: "🐼",
-    sql: "🗃️",
-    cpp: "⚡",
-    bash: "🐚",
-    java: "☕",
-    javascript: "🟨",
+function languageIcon(lang: string): string {
+  const skillicons: Record<string, string> = {
+    rust: "rust",
+    typescript: "ts",
+    javascript: "js",
+    python: "py",
+    sql: "mysql",
+    cpp: "cpp",
+    bash: "bash",
+    java: "java",
   };
-  return map[lang.toLowerCase()] ?? "📝";
+  const key = lang.toLowerCase();
+  if (skillicons[key]) {
+    return `<img src="https://skillicons.dev/icons?i=${skillicons[key]}" height="20" alt="${lang}" />`;
+  }
+  // pandas not in skillicons, use simpleicons fallback
+  const simpleicons: Record<string, string> = {
+    pandas: "pandas",
+  };
+  if (simpleicons[key]) {
+    return `<img src="https://cdn.simpleicons.org/${simpleicons[key]}" height="20" alt="${lang}" />`;
+  }
+  return "";
 }
 
 export async function fetchLeetCodeInsights(): Promise<string> {
@@ -110,13 +120,15 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     lines.push("#### Top Languages");
     lines.push("");
     const topLangs = languageDistribution.slice(0, 5);
-    lines.push("| Language | Problems | Share |");
-    lines.push("|:---------|--------:|------:|");
+    lines.push("<table>");
+    lines.push("<tr><th>Language</th><th align=\"right\">Problems</th><th align=\"right\">Share</th></tr>");
     for (const l of topLangs) {
+      const name = l.language.charAt(0).toUpperCase() + l.language.slice(1);
       lines.push(
-        `| ${languageEmoji(l.language)} ${l.language.charAt(0).toUpperCase() + l.language.slice(1)} | ${l.count} | ${l.pct}% |`,
+        `<tr><td>${languageIcon(l.language)}&nbsp;&nbsp;${name}</td><td align="right">${l.count}</td><td align="right">${l.pct}%</td></tr>`,
       );
     }
+    lines.push("</table>");
     lines.push("");
 
     lines.push(
