@@ -45,9 +45,9 @@ jobs:
           check_url "readme-typing-svg" "https://readme-typing-svg.demolab.com"
           check_url "streak-stats"      "https://streak-stats.demolab.com"
           check_url "skillicons"        "https://skillicons.dev"
-          check_url "wrujel.com"        "https://wrujel.com"
+          check_url "wrujel.com"        "https://wrujel.com/api/projects/latest"
           check_url "leetcode-tracker"  "https://leetcode-tracker-qvf.pages.dev"
-          check_url "blog-api"          "https://wrujel.com/api/blog/latest"
+          check_url "blog-api"          "https://blog.wrujel.com/api/latest"
 
           echo "failures=$FAILURES" >> "$GITHUB_OUTPUT"
 
