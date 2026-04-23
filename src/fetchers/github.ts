@@ -17,7 +17,23 @@ interface GraphQLResponse {
   };
 }
 
+interface LatestProject {
+  name: string;
+  description: string | null;
+  stars: number;
+  forks: number;
+  language: string | null;
+  imageUrl: string;
+  url: string;
+  homepage: string | null;
+}
+
+interface PortfolioApiResponse {
+  projects: LatestProject[];
+}
+
 const GITHUB_GRAPHQL = "https://api.github.com/graphql";
+const PORTFOLIO_API = "https://wrujel.com/api/projects/latest";
 const USERNAME = "wrujel";
 
 const QUERY = `
@@ -57,9 +73,66 @@ function languageBadge(lang: string | null): string {
   return `![${lang}](https://img.shields.io/badge/-${encodeURIComponent(lang)}-${color}?style=flat-square&logo=${encodeURIComponent(lang.toLowerCase())}&logoColor=white)`;
 }
 
-export async function fetchFeaturedProjects(): Promise<string> {
-  const token = process.env.GH_TOKEN;
+function renderProjectCards(projects: LatestProject[]): string {
+  const COLS = 2;
+  const rows: string[] = [];
 
+  for (let i = 0; i < projects.length; i += COLS) {
+    const chunk = projects.slice(i, i + COLS);
+    const cells = chunk.map((p) => {
+      const desc = p.description
+        ? p.description.length > 80
+          ? p.description.slice(0, 77) + "..."
+          : p.description
+        : "—";
+      const lang = languageBadge(p.language) || p.language || "—";
+      return [
+        `<td align="center" valign="top" width="50%">`,
+        `<a href="${p.url}"><img src="${p.imageUrl}" alt="${p.name}" width="100%" height="200"></a>`,
+        `<br/>`,
+        `<a href="${p.url}"><b>${p.name}</b></a>`,
+        `<br/><sub>${desc}</sub>`,
+        `<br/><br/>`,
+        `<sub>⭐ ${p.stars} &nbsp;•&nbsp; 🍴 ${p.forks} &nbsp;•&nbsp; ${lang}</sub>`,
+        `</td>`,
+      ].join("\n");
+    });
+
+    if (chunk.length < COLS) {
+      cells.push(`<td width="50%"></td>`);
+    }
+
+    rows.push(`<tr>\n${cells.join("\n")}\n</tr>`);
+  }
+
+  return [
+    "### 🚀 Featured Projects",
+    "",
+    "<table>",
+    rows.join("\n"),
+    "</table>",
+    "",
+    `<p align="right"><a href="https://wrujel.com/projects">🚀 More Projects →</a></p>`,
+  ].join("\n");
+}
+
+export async function fetchFeaturedProjects(): Promise<string> {
+  // Primary: portfolio API (has project images + same ordering as /projects page)
+  try {
+    const res = await fetch(PORTFOLIO_API, {
+      headers: { "User-Agent": "wrujel-profile-readme" },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = (await res.json()) as PortfolioApiResponse;
+    if (json.projects?.length > 0) {
+      return renderProjectCards(json.projects);
+    }
+  } catch (err) {
+    console.warn("Portfolio API unavailable, falling back to GitHub GraphQL:", err);
+  }
+
+  // Fallback: GitHub GraphQL with GitHub OG images
+  const token = process.env.GH_TOKEN;
   try {
     if (!token) throw new Error("GH_TOKEN not set");
 
@@ -76,51 +149,24 @@ export async function fetchFeaturedProjects(): Promise<string> {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const json = (await res.json()) as GraphQLResponse;
-    const repos = json.data.user.repositories.nodes.filter(
-      (r) => r.name !== USERNAME,
-    );
+    const repos = json.data.user.repositories.nodes
+      .filter((r) => r.name !== USERNAME)
+      .slice(0, 5);
 
-    const lines: string[] = [
-      "### 🚀 Featured Projects",
-      "",
-      "| Project | Description | Stars | Forks | Language |",
-      "|:--------|:------------|------:|------:|:---------|",
-    ];
+    const projects: LatestProject[] = repos.map((r) => ({
+      name: r.name,
+      description: r.description,
+      stars: r.stargazerCount,
+      forks: r.forkCount,
+      language: r.primaryLanguage?.name ?? null,
+      imageUrl: `https://opengraph.githubassets.com/1/${USERNAME}/${r.name}`,
+      url: r.url,
+      homepage: null,
+    }));
 
-    for (const repo of repos.slice(0, 6)) {
-      const desc = repo.description
-        ? repo.description.length > 60
-          ? repo.description.slice(0, 57) + "..."
-          : repo.description
-        : "—";
-      const lang = languageBadge(repo.primaryLanguage?.name ?? null);
-      lines.push(
-        `| [${repo.name}](${repo.url}) | ${desc} | ⭐ ${repo.stargazerCount} | 🍴 ${repo.forkCount} | ${lang} |`,
-      );
-    }
-
-    lines.push(
-      "",
-      `<p align="right"><a href="https://wrujel.com/projects">🚀 More Projects →</a></p>`,
-    );
-    return lines.join("\n");
+    return renderProjectCards(projects);
   } catch (err) {
     console.error("Failed to fetch GitHub repos:", err);
-    // Fallback: static list of known pinned repos
-    const lines = [
-      "### 🚀 Featured Projects",
-      "",
-      "| Project | Description | Language |",
-      "|:--------|:------------|:---------|",
-      `| [airbnb-clone](https://github.com/wrujel/airbnb-clone) | Airbnb app clone with Next.js 13 | ${languageBadge("TypeScript")} |`,
-      `| [netflix-clone](https://github.com/wrujel/netflix-clone) | Netflix-inspired app with Next.js | ${languageBadge("TypeScript")} |`,
-      `| [portfolio-web-template](https://github.com/wrujel/portfolio-web-template) | Web portfolio using Next.js 14 | ${languageBadge("TypeScript")} |`,
-      `| [tesla-landing](https://github.com/wrujel/tesla-landing) | Tesla landing with Astro | ${languageBadge("Astro")} |`,
-      `| [tetris-javascript](https://github.com/wrujel/tetris-javascript) | Classic Tetris built with JS | ${languageBadge("JavaScript")} |`,
-      `| [github-history](https://github.com/wrujel/github-history) | GitHub commits & branches viewer | ${languageBadge("TypeScript")} |`,
-      "",
-      `<p align="right"><a href="https://wrujel.com/projects">🚀 More Projects →</a></p>`,
-    ];
-    return lines.join("\n");
+    return "";
   }
 }
