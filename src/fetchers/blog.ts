@@ -32,7 +32,7 @@ function formatDate(dateStr: string): string {
 }
 
 function getThumbUrl(url: string): string {
-  return url.replace("/upload/", "/upload/w_56,h_56,c_fill/");
+  return url.replace("/upload/", "/upload/w_72,h_72,c_fill/");
 }
 
 function truncate(text: string, max: number): string {
@@ -69,18 +69,18 @@ async function fetchFromApi(): Promise<string | null> {
     const rows: string[] = [];
     for (const post of json.posts) {
       const thumb = post.image
-        ? `<a href="${post.url}"><img src="${getThumbUrl(post.image)}" width="56" height="56" /></a>`
+        ? `<a href="${post.url}"><img src="${getThumbUrl(post.image)}" width="72" height="72" /></a>`
         : `<a href="${post.url}">📝</a>`;
 
       const metaParts: string[] = [];
       if (post.date) metaParts.push(`📅 ${formatDate(post.date)}`);
-      if (post.category) metaParts.push(`🏷️ ${post.category}`);
+      if (post.category) metaParts.push(`<sub><code>${post.category}</code></sub>`);
       if (post.readingTime) metaParts.push(`⏱ ${post.readingTime} min read`);
       const meta = metaParts.length ? `<sub>${metaParts.join(" · ")}</sub>` : "";
 
       rows.push(
         `  <tr>\n` +
-        `    <td width="60" align="center" valign="top">${thumb}</td>\n` +
+        `    <td width="76" align="center" valign="top">${thumb}</td>\n` +
         `    <td valign="top"><a href="${post.url}"><b>${post.title}</b></a><br><sub>${truncate(post.description, 80)}</sub></td>\n` +
         `    <td align="right" valign="top" nowrap>${meta}</td>\n` +
         `  </tr>\n` +
@@ -88,7 +88,7 @@ async function fetchFromApi(): Promise<string | null> {
       );
     }
 
-    return `<table>\n${rows.join("\n")}\n</table>`;
+    return `<table width="100%">\n${rows.join("\n")}\n</table>`;
   } catch {
     return null;
   }

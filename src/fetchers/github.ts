@@ -70,7 +70,7 @@ function languageBadge(lang: string | null): string {
     CSS: "1572B6",
   };
   const color = colors[lang] ?? "555";
-  return `![${lang}](https://img.shields.io/badge/-${encodeURIComponent(lang)}-${color}?style=flat-square&logo=${encodeURIComponent(lang.toLowerCase())}&logoColor=white)`;
+  return `<img src="https://img.shields.io/badge/-${encodeURIComponent(lang)}-${color}?style=flat-square&logo=${encodeURIComponent(lang.toLowerCase())}&logoColor=white" alt="${lang}" height="18">`;
 }
 
 function renderProjectCards(projects: LatestProject[]): string {
@@ -88,7 +88,7 @@ function renderProjectCards(projects: LatestProject[]): string {
       const lang = languageBadge(p.language) || p.language || "—";
       return [
         `<td align="center" valign="top" width="50%">`,
-        `<a href="${p.url}"><img src="${p.imageUrl}" alt="${p.name}" width="100%" height="200"></a>`,
+        `<a href="${p.url}"><img src="https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp" alt="${p.name}" width="100%"></a>`,
         `<br/>`,
         `<a href="${p.url}"><b>${p.name}</b></a>`,
         `<br/><sub>${desc}</sub>`,
