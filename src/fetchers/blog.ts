@@ -73,16 +73,16 @@ async function fetchFromApi(): Promise<string | null> {
         : `<a href="${post.url}">📝</a>`;
 
       const metaParts: string[] = [];
-      if (post.date) metaParts.push(`📅 ${formatDate(post.date)}`);
+      if (post.date) metaParts.push(`<sub>📅 ${formatDate(post.date)}</sub>`);
       if (post.category) metaParts.push(`<sub><code>${post.category}</code></sub>`);
-      if (post.readingTime) metaParts.push(`⏱ ${post.readingTime} min read`);
-      const meta = metaParts.length ? `<sub>${metaParts.join(" · ")}</sub>` : "";
+      if (post.readingTime) metaParts.push(`<sub>⏱ ${post.readingTime} min read</sub>`);
+      const meta = metaParts.join("<br>");
 
       rows.push(
         `  <tr>\n` +
         `    <td width="76" align="center" valign="top">${thumb}</td>\n` +
         `    <td valign="top"><a href="${post.url}"><b>${post.title}</b></a><br><sub>${truncate(post.description, 80)}</sub></td>\n` +
-        `    <td align="right" valign="top" nowrap>${meta}</td>\n` +
+        `    <td align="right" valign="top">${meta}</td>\n` +
         `  </tr>\n` +
         `  <tr><td colspan="3" height="6"></td></tr>`,
       );
