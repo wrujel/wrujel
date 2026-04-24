@@ -89,7 +89,14 @@ currently:
 <br/><br/>
 <sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
-<td width="50%"></td>
+<td align="center" valign="top" width="50%">
+<a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Fdjango-crud-react%2Fmaster%2Fimages%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="django-crud-react" width="100%"></a>
+<br/>
+<a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
+<br/><sub>This project is a simple REST API with Django and React.</sub>
+<br/><br/>
+<sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="18"></sub>
+</td>
 </tr>
 </table>
 
