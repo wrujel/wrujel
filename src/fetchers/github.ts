@@ -24,6 +24,7 @@ interface LatestProject {
   forks: number;
   language: string | null;
   imageUrl: string;
+  gifUrl?: string;
   url: string;
   homepage: string | null;
 }
@@ -88,7 +89,14 @@ function renderProjectCards(projects: LatestProject[]): string {
       const lang = languageBadge(p.language) || p.language || "—";
       return [
         `<td align="center" valign="top" width="50%">`,
-        `<a href="${p.url}"><img src="https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp" alt="${p.name}" width="100%"></a>`,
+        p.gifUrl
+          ? [
+              `<a href="${p.url}"><picture>`,
+              `<source media="(prefers-reduced-motion: no-preference)" srcset="${p.gifUrl}">`,
+              `<img src="https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp" alt="${p.name}" width="100%">`,
+              `</picture></a>`,
+            ].join("\n")
+          : `<a href="${p.url}"><img src="https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp" alt="${p.name}" width="100%"></a>`,
         `<br/>`,
         `<a href="${p.url}"><b>${p.name}</b></a>`,
         `<br/><sub>${desc}</sub>`,
