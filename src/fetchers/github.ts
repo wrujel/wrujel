@@ -91,24 +91,29 @@ function renderProjectCards(projects: LatestProject[]): string {
           : p.description
         : "—";
       const lang = languageBadge(p.language) || p.language || "—";
-      const imageSrc = isHttpUrl(p.imageUrl)
-        ? `https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp`
-        : "";
-      const imgTag = imageSrc
-        ? `<img src="${imageSrc}" alt="${p.name}" width="100%">`
+      // Prefer the GIF (already sized by Cloudinary, served directly so wsrv's
+      // pixel limit on multi-frame inputs doesn't reject it). Fall back to the
+      // static screenshot via wsrv for resizing.
+      const imgSrc = isHttpUrl(p.gifUrl)
+        ? p.gifUrl
+        : isHttpUrl(p.imageUrl)
+          ? `https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp`
+          : "";
+      const imgTag = imgSrc
+        ? `<img src="${imgSrc}" alt="${p.name}" width="100%">`
         : `<img alt="${p.name}" width="100%">`;
+      const linkUrl = isHttpUrl(p.url)
+        ? p.url
+        : isHttpUrl(p.homepage)
+          ? p.homepage
+          : "";
+      const wrap = (inner: string) =>
+        linkUrl ? `<a href="${linkUrl}">${inner}</a>` : inner;
       return [
         `<td align="center" valign="top" width="50%">`,
-        isHttpUrl(p.gifUrl)
-          ? [
-              `<a href="${p.url}"><picture>`,
-              `<source media="(prefers-reduced-motion: no-preference)" srcset="${p.gifUrl}">`,
-              imgTag,
-              `</picture></a>`,
-            ].join("\n")
-          : `<a href="${p.url}">${imgTag}</a>`,
+        wrap(imgTag),
         `<br/>`,
-        `<a href="${p.url}"><b>${p.name}</b></a>`,
+        wrap(`<b>${p.name}</b>`),
         `<br/><sub>${desc}</sub>`,
         `<br/><br/>`,
         `<sub>⭐ ${p.stars} &nbsp;•&nbsp; 🍴 ${p.forks} &nbsp;•&nbsp; ${lang}</sub>`,
@@ -142,9 +147,9 @@ export async function fetchFeaturedProjects(): Promise<string> {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = (await res.json()) as PortfolioApiResponse;
-    const valid = (json.projects ?? []).filter((p) => isHttpUrl(p.url));
-    if (valid.length > 0) {
-      return renderProjectCards(valid);
+    const projects = json.projects ?? [];
+    if (projects.length > 0) {
+      return renderProjectCards(projects);
     }
   } catch (err) {
     console.warn("Portfolio API unavailable, falling back to GitHub GraphQL:", err);
