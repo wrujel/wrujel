@@ -35,6 +35,10 @@ function getThumbUrl(url: string): string {
   return url.replace("/upload/", "/upload/w_72,h_72,c_fill/");
 }
 
+function isHttpUrl(value: unknown): value is string {
+  return typeof value === "string" && /^https?:\/\//.test(value);
+}
+
 function truncate(text: string, max: number): string {
   return text.length > max ? text.slice(0, max).trimEnd() + "…" : text;
 }
@@ -68,7 +72,7 @@ async function fetchFromApi(): Promise<string | null> {
 
     const rows: string[] = [];
     for (const post of json.posts) {
-      const thumb = post.image
+      const thumb = isHttpUrl(post.image)
         ? `<a href="${post.url}"><img src="${getThumbUrl(post.image)}" width="72" height="72" /></a>`
         : `<a href="${post.url}">📝</a>`;
 

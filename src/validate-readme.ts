@@ -80,6 +80,30 @@ async function main() {
     errors++;
   }
 
+  // 4. Reject any src/href/srcset that isn't an http(s) URL, anchor, or known
+  // local asset. Catches accidental "null"/"undefined"/empty values from APIs
+  // before lychee chokes on them as file:// paths.
+  const urlAttrRegex = /\b(?:src|href|srcset)\s*=\s*"([^"]*)"/gi;
+  const ALLOWED_LOCAL = new Set(["./profile-3d-contrib/profile-night-green.svg"]);
+  const badAttrs: string[] = [];
+  let m: RegExpExecArray | null;
+  while ((m = urlAttrRegex.exec(readme)) !== null) {
+    const value = m[1].trim();
+    if (!value) {
+      badAttrs.push(`empty: ${m[0]}`);
+      continue;
+    }
+    if (value.startsWith("#") || value.startsWith("mailto:")) continue;
+    if (ALLOWED_LOCAL.has(value)) continue;
+    if (/^https?:\/\//i.test(value)) continue;
+    badAttrs.push(m[0]);
+  }
+  if (badAttrs.length) {
+    console.error(`❌ Invalid URL attributes (${badAttrs.length}):`);
+    for (const bad of badAttrs.slice(0, 10)) console.error(`   ${bad}`);
+    errors++;
+  }
+
   // 4. Local 3D contribution SVG check (soft warning — separate workflow generates it)
   const svgPath = join(ROOT, "profile-3d-contrib", "profile-night-green.svg");
   try {
