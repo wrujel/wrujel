@@ -91,11 +91,12 @@ function renderProjectCards(projects: LatestProject[]): string {
           : p.description
         : "—";
       const lang = languageBadge(p.language) || p.language || "—";
-      // Prefer the GIF (already sized by Cloudinary, served directly so wsrv's
-      // pixel limit on multi-frame inputs doesn't reject it). Fall back to the
-      // static screenshot via wsrv for resizing.
+      // Prefer the GIF, routed through wsrv.nl with n=30 to cap frames (the
+      // raw Cloudinary GIFs can exceed both wsrv's 71M-pixel input limit and
+      // GitHub camo's 5MB serve limit). output=webp shrinks the result so
+      // camo will proxy and animate it.
       const imgSrc = isHttpUrl(p.gifUrl)
-        ? p.gifUrl
+        ? `https://wsrv.nl/?url=${encodeURIComponent(p.gifUrl)}&w=600&h=300&fit=cover&n=30&output=webp`
         : isHttpUrl(p.imageUrl)
           ? `https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp`
           : "";
