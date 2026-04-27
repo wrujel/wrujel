@@ -46,7 +46,7 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/airbnb-clone"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249761/monitor-tests/airbnb-clone" alt="airbnb-clone" width="100%"></a>
+<a href="https://github.com/wrujel/airbnb-clone"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777249761%2Fmonitor-tests%2Fairbnb-clone&w=600&h=300&fit=cover&n=30&output=webp" alt="airbnb-clone" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/airbnb-clone"><b>airbnb-clone</b></a>
 <br/><sub>Airbnb app clone with Next.js 13, that allows you to search for properties, a...</sub>
@@ -54,7 +54,7 @@ currently:
 <sub>⭐ 27 &nbsp;•&nbsp; 🍴 12 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/portfolio-web-template"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249770/monitor-tests/portfolio-web-template" alt="portfolio-web-template" width="100%"></a>
+<a href="https://github.com/wrujel/portfolio-web-template"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777249770%2Fmonitor-tests%2Fportfolio-web-template&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio-web-template" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/portfolio-web-template"><b>portfolio-web-template</b></a>
 <br/><sub> This a project to create a web portfolio using Next.js 14, React, TypeScript...</sub>
@@ -64,7 +64,7 @@ currently:
 </tr>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/tesla-landing"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249775/monitor-tests/tesla-landing" alt="tesla-landing" width="100%"></a>
+<a href="https://github.com/wrujel/tesla-landing"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777249775%2Fmonitor-tests%2Ftesla-landing&w=600&h=300&fit=cover&n=30&output=webp" alt="tesla-landing" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/tesla-landing"><b>tesla-landing</b></a>
 <br/><sub>Tesla landing with Astro and Tailwind, fully responsive design.</sub>
@@ -72,7 +72,7 @@ currently:
 <sub>⭐ 3 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://blog.wrujel.com"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777300477/monitor-tests/blog" alt="blog" width="100%"></a>
+<a href="https://blog.wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777300477%2Fmonitor-tests%2Fblog&w=600&h=300&fit=cover&n=30&output=webp" alt="blog" width="100%"></a>
 <br/>
 <a href="https://blog.wrujel.com"><b>blog</b></a>
 <br/><sub>A developer blog built with Next.js 16, featuring file-based MDX content powe...</sub>
@@ -82,7 +82,7 @@ currently:
 </tr>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249767/monitor-tests/leetcode-ui" alt="leetcode-ui" width="100%"></a>
+<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777249767%2Fmonitor-tests%2Fleetcode-ui&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
 <a href="https://leetcode-tracker-qvf.pages.dev"><b>leetcode-ui</b></a>
 <br/><sub>Personal LeetCode progress dashboard built with Astro 5, React 19, and Tailwi...</sub>
@@ -90,7 +90,7 @@ currently:
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://wrujel.com"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249771/monitor-tests/portfolio" alt="portfolio" width="100%"></a>
+<a href="https://wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777249771%2Fmonitor-tests%2Fportfolio&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio" width="100%"></a>
 <br/>
 <a href="https://wrujel.com"><b>portfolio</b></a>
 <br/><sub>Personal developer portfolio built with Next.js 16, TypeScript, and Tailwind ...</sub>
