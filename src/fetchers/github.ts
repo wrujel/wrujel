@@ -142,8 +142,9 @@ export async function fetchFeaturedProjects(): Promise<string> {
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = (await res.json()) as PortfolioApiResponse;
-    if (json.projects?.length > 0) {
-      return renderProjectCards(json.projects);
+    const valid = (json.projects ?? []).filter((p) => isHttpUrl(p.url));
+    if (valid.length > 0) {
+      return renderProjectCards(valid);
     }
   } catch (err) {
     console.warn("Portfolio API unavailable, falling back to GitHub GraphQL:", err);
