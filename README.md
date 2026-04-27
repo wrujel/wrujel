@@ -46,15 +46,21 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/airbnb-clone"><img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Fairbnb-clone%2Fmain%2Fpublic%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="airbnb-clone" width="100%"></a>
+<a href="https://github.com/wrujel/airbnb-clone"><picture>
+<source media="(prefers-reduced-motion: no-preference)" srcset="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249761/monitor-tests/airbnb-clone">
+<img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Fairbnb-clone%2Fmain%2Fpublic%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="airbnb-clone" width="100%">
+</picture></a>
 <br/>
 <a href="https://github.com/wrujel/airbnb-clone"><b>airbnb-clone</b></a>
 <br/><sub>Airbnb app clone with Next.js 13, that allows you to search for properties, a...</sub>
 <br/><br/>
-<sub>⭐ 26 &nbsp;•&nbsp; 🍴 12 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
+<sub>⭐ 27 &nbsp;•&nbsp; 🍴 12 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/portfolio-web-template"><img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Fportfolio-web-template%2Fmaster%2Fpublic%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="portfolio-web-template" width="100%"></a>
+<a href="https://github.com/wrujel/portfolio-web-template"><picture>
+<source media="(prefers-reduced-motion: no-preference)" srcset="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249770/monitor-tests/portfolio-web-template">
+<img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Fportfolio-web-template%2Fmaster%2Fpublic%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="portfolio-web-template" width="100%">
+</picture></a>
 <br/>
 <a href="https://github.com/wrujel/portfolio-web-template"><b>portfolio-web-template</b></a>
 <br/><sub> This a project to create a web portfolio using Next.js 14, React, TypeScript...</sub>
@@ -64,39 +70,17 @@ currently:
 </tr>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/tesla-landing"><img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Ftesla-landing%2Fmaster%2Fpublic%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="tesla-landing" width="100%"></a>
+<a href="https://github.com/wrujel/tesla-landing"><picture>
+<source media="(prefers-reduced-motion: no-preference)" srcset="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249775/monitor-tests/tesla-landing">
+<img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Ftesla-landing%2Fmaster%2Fpublic%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="tesla-landing" width="100%">
+</picture></a>
 <br/>
 <a href="https://github.com/wrujel/tesla-landing"><b>tesla-landing</b></a>
 <br/><sub>Tesla landing with Astro and Tailwind, fully responsive design.</sub>
 <br/><br/>
 <sub>⭐ 3 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" height="18"></sub>
 </td>
-<td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/tetris-javascript"><img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Ftetris-javascript%2Fmain%2Fimages%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="tetris-javascript" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/tetris-javascript"><b>tetris-javascript</b></a>
-<br/><sub>A modern implementation of the classic Tetris game, built with JavaScript, po...</sub>
-<br/><br/>
-<sub>⭐ 1 &nbsp;•&nbsp; 🍴 1 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" height="18"></sub>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/netflix-clone"><img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Fnetflix-clone%2Fmain%2Fpublic%2Fimages%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="netflix-clone" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/netflix-clone"><b>netflix-clone</b></a>
-<br/><sub>App inspired by Netflix, built with Next.js, Typescript, Tailwind CSS, Next-A...</sub>
-<br/><br/>
-<sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
-</td>
-<td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fwrujel%2Fdjango-crud-react%2Fmaster%2Fimages%2Fscreenshot.png&w=600&h=300&fit=cover&output=webp" alt="django-crud-react" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
-<br/><sub>This project is a simple REST API with Django and React.</sub>
-<br/><br/>
-<sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="18"></sub>
-</td>
+<td width="50%"></td>
 </tr>
 </table>
 
