@@ -74,6 +74,10 @@ function languageBadge(lang: string | null): string {
   return `<img src="https://img.shields.io/badge/-${encodeURIComponent(lang)}-${color}?style=flat-square&logo=${encodeURIComponent(lang.toLowerCase())}&logoColor=white" alt="${lang}" height="18">`;
 }
 
+function isHttpUrl(value: unknown): value is string {
+  return typeof value === "string" && /^https?:\/\//.test(value);
+}
+
 function renderProjectCards(projects: LatestProject[]): string {
   const COLS = 2;
   const rows: string[] = [];
@@ -87,16 +91,22 @@ function renderProjectCards(projects: LatestProject[]): string {
           : p.description
         : "—";
       const lang = languageBadge(p.language) || p.language || "—";
+      const imageSrc = isHttpUrl(p.imageUrl)
+        ? `https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp`
+        : "";
+      const imgTag = imageSrc
+        ? `<img src="${imageSrc}" alt="${p.name}" width="100%">`
+        : `<img alt="${p.name}" width="100%">`;
       return [
         `<td align="center" valign="top" width="50%">`,
-        p.gifUrl
+        isHttpUrl(p.gifUrl)
           ? [
               `<a href="${p.url}"><picture>`,
               `<source media="(prefers-reduced-motion: no-preference)" srcset="${p.gifUrl}">`,
-              `<img src="https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp" alt="${p.name}" width="100%">`,
+              imgTag,
               `</picture></a>`,
             ].join("\n")
-          : `<a href="${p.url}"><img src="https://wsrv.nl/?url=${encodeURIComponent(p.imageUrl)}&w=600&h=300&fit=cover&output=webp" alt="${p.name}" width="100%"></a>`,
+          : `<a href="${p.url}">${imgTag}</a>`,
         `<br/>`,
         `<a href="${p.url}"><b>${p.name}</b></a>`,
         `<br/><sub>${desc}</sub>`,
