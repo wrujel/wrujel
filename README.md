@@ -51,7 +51,7 @@ currently:
 <a href="https://github.com/wrujel/airbnb-clone"><b>airbnb-clone</b></a>
 <br/><sub>Airbnb app clone with Next.js 13, that allows you to search for properties, a...</sub>
 <br/><br/>
-<sub>⭐ 27 &nbsp;•&nbsp; 🍴 12 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
+<sub>⭐ 28 &nbsp;•&nbsp; 🍴 12 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
 <a href="https://github.com/wrujel/portfolio-web-template"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777302004%2Fmonitor-tests%2Fportfolio-web-template&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio-web-template" width="100%"></a>
