@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-branded-types-domain-modeling-564074"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642478/blog/bc98ecd8-28e3-4832-9001-84175bab286a_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/typescript-branded-types-domain-modeling-564074"><b>TypeScript Branded Types: Compile-Time Domain Modeling</b></a><br><sub>Eliminate a whole class of runtime bugs by teaching TypeScript's type system the…</sub></td>
+    <td align="right" valign="top"><sub>📅 May 2, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776534337/blog/0886e74d-468c-497a-a56e-05b802a99986_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><b>Graceful Shutdown in Node.js Production Services</b></a><br><sub>Most Node.js services silently drop in-flight requests on every deploy. Here's h…</sub></td>
     <td align="right" valign="top"><sub>📅 Apr 18, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
@@ -133,12 +139,6 @@ currently:
     <td align="right" valign="top"><sub>📅 Apr 4, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/react-server-actions-patterns-pitfalls-production-381b58"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1775489836/blog/84ba41e5-98c4-4cdf-b717-a497b4e8df89_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/react-server-actions-patterns-pitfalls-production-381b58"><b>React Server Actions: Patterns, Pitfalls, and Production Use</b></a><br><sub>Server Actions bring form handling and mutations back to the server in Next.js —…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 1, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
 </table>
 
 <p align="right"><a href="https://blog.wrujel.com/">📖 Read more →</a></p>
@@ -156,8 +156,8 @@ currently:
 | Difficulty | Solved | Progress |
 |:-----------|-------:|:---------|
 | 🟢 Easy | 936/936 | `████████████████████` 100.0% |
-| 🟡 Medium | 2030/2030 | `████████████████████` 100.0% |
-| 🔴 Hard | 919/919 | `████████████████████` 100.0% |
+| 🟡 Medium | 2030/2035 | `████████████████████` 99.8% |
+| 🔴 Hard | 919/921 | `████████████████████` 99.8% |
 
 #### Top Languages
 
