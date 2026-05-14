@@ -110,9 +110,21 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/async-local-storage-request-context-nodejs-dd11f4"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642543/blog/11671b1c-1a30-4739-a7a3-78751ba14bd5_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/async-local-storage-request-context-nodejs-dd11f4"><b>Request Context Without Prop Drilling: AsyncLocalStorage in Node.js</b></a><br><sub>Use AsyncLocalStorage to propagate request-scoped context — trace IDs, user sess…</sub></td>
+    <td align="right" valign="top"><sub>📅 May 9, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-branded-types-domain-modeling-564074"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642478/blog/bc98ecd8-28e3-4832-9001-84175bab286a_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/typescript-branded-types-domain-modeling-564074"><b>TypeScript Branded Types: Compile-Time Domain Modeling</b></a><br><sub>Eliminate a whole class of runtime bugs by teaching TypeScript's type system the…</sub></td>
     <td align="right" valign="top"><sub>📅 May 2, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/contract-first-api-design-openapi-typescript-2b59ac"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642468/blog/2efe62b4-8e8e-4d01-9837-f386592de234_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/contract-first-api-design-openapi-typescript-2b59ac"><b>Contract-First API Design with OpenAPI and TypeScript</b></a><br><sub>Stop letting your API spec drift from your implementation — define the contract…</sub></td>
+    <td align="right" valign="top"><sub>📅 Apr 25, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
@@ -125,18 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/composable-middleware-pipelines-typescript-017190"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776002444/blog/6aa479db-670c-405c-b56f-0229208314cf_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/composable-middleware-pipelines-typescript-017190"><b>Composable Middleware Pipelines in TypeScript</b></a><br><sub>Stop bolting middleware onto frameworks and start building type-safe, composable…</sub></td>
     <td align="right" valign="top"><sub>📅 Apr 12, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/runtime-type-safety-zod-validation-boundaries-ed4ad0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776001906/blog/8c300ec1-5066-4788-84cb-7a2ef2c38878_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/runtime-type-safety-zod-validation-boundaries-ed4ad0"><b>Runtime Type Safety with Zod: Validating at Every Boundary</b></a><br><sub>TypeScript's type system stops at compile time — Zod closes the gap by validatin…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 11, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/http-caching-cache-control-etags-cdn-strategies-cfce0a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1775476662/blog/6707b48e-e08b-4ff5-b1b1-e59806ca8a13_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/http-caching-cache-control-etags-cdn-strategies-cfce0a"><b>HTTP Caching Demystified: Cache-Control, ETags, and CDN Strategies</b></a><br><sub>A practical guide to HTTP caching headers — what each directive actually does, w…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 4, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
