@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/transactional-outbox-pattern-reliable-event-publishing-bbc7e2"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778970724/blog/2e1e1f15-fc39-4bb6-8111-db3a878b240c_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/transactional-outbox-pattern-reliable-event-publishing-bbc7e2"><b>The Transactional Outbox Pattern: Solving Dual-Write in Distributed Systems</b></a><br><sub>How the transactional outbox pattern eliminates the dual-write problem and guara…</sub></td>
+    <td align="right" valign="top"><sub>📅 May 16, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/async-local-storage-request-context-nodejs-dd11f4"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642543/blog/11671b1c-1a30-4739-a7a3-78751ba14bd5_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/async-local-storage-request-context-nodejs-dd11f4"><b>Request Context Without Prop Drilling: AsyncLocalStorage in Node.js</b></a><br><sub>Use AsyncLocalStorage to propagate request-scoped context — trace IDs, user sess…</sub></td>
     <td align="right" valign="top"><sub>📅 May 9, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776534337/blog/0886e74d-468c-497a-a56e-05b802a99986_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><b>Graceful Shutdown in Node.js Production Services</b></a><br><sub>Most Node.js services silently drop in-flight requests on every deploy. Here's h…</sub></td>
     <td align="right" valign="top"><sub>📅 Apr 18, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/composable-middleware-pipelines-typescript-017190"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776002444/blog/6aa479db-670c-405c-b56f-0229208314cf_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/composable-middleware-pipelines-typescript-017190"><b>Composable Middleware Pipelines in TypeScript</b></a><br><sub>Stop bolting middleware onto frameworks and start building type-safe, composable…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 12, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
