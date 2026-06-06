@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/async-concurrency-control-nodejs-semaphores-70df4a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1780720244/blog/9c263b7d-e4ad-4de7-80f7-ac27023f9161_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/async-concurrency-control-nodejs-semaphores-70df4a"><b>Async Concurrency Control in Node.js: Semaphores, Throttling, and Backpressure</b></a><br><sub>Unbounded Promise.all is a silent OOM killer — here's how to build semaphores, t…</sub></td>
+    <td align="right" valign="top"><sub>📅 May 30, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/transactional-outbox-pattern-reliable-event-publishing-bbc7e2"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778970724/blog/2e1e1f15-fc39-4bb6-8111-db3a878b240c_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/transactional-outbox-pattern-reliable-event-publishing-bbc7e2"><b>The Transactional Outbox Pattern: Solving Dual-Write in Distributed Systems</b></a><br><sub>How the transactional outbox pattern eliminates the dual-write problem and guara…</sub></td>
     <td align="right" valign="top"><sub>📅 May 16, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/contract-first-api-design-openapi-typescript-2b59ac"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642468/blog/2efe62b4-8e8e-4d01-9837-f386592de234_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/contract-first-api-design-openapi-typescript-2b59ac"><b>Contract-First API Design with OpenAPI and TypeScript</b></a><br><sub>Stop letting your API spec drift from your implementation — define the contract…</sub></td>
     <td align="right" valign="top"><sub>📅 Apr 25, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776534337/blog/0886e74d-468c-497a-a56e-05b802a99986_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><b>Graceful Shutdown in Node.js Production Services</b></a><br><sub>Most Node.js services silently drop in-flight requests on every deploy. Here's h…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 18, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
