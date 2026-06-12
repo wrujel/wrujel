@@ -46,42 +46,6 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/airbnb-clone"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301990%2Fmonitor-tests%2Fairbnb-clone&w=600&h=300&fit=cover&n=30&output=webp" alt="airbnb-clone" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/airbnb-clone"><b>airbnb-clone</b></a>
-<br/><sub>Airbnb app clone with Next.js 13, that allows you to search for properties, a...</sub>
-<br/><br/>
-<sub>⭐ 28 &nbsp;•&nbsp; 🍴 12 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
-</td>
-<td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/portfolio-web-template"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777302004%2Fmonitor-tests%2Fportfolio-web-template&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio-web-template" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/portfolio-web-template"><b>portfolio-web-template</b></a>
-<br/><sub> This a project to create a web portfolio using Next.js 14, React, TypeScript...</sub>
-<br/><br/>
-<sub>⭐ 4 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/tesla-landing"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301986%2Fmonitor-tests%2Ftesla-landing&w=600&h=300&fit=cover&n=30&output=webp" alt="tesla-landing" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/tesla-landing"><b>tesla-landing</b></a>
-<br/><sub>Tesla landing with Astro and Tailwind, fully responsive design.</sub>
-<br/><br/>
-<sub>⭐ 3 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" height="18"></sub>
-</td>
-<td align="center" valign="top" width="50%">
-<a href="https://blog.wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301983%2Fmonitor-tests%2Fblog&w=600&h=300&fit=cover&n=30&output=webp" alt="blog" width="100%"></a>
-<br/>
-<a href="https://blog.wrujel.com"><b>blog</b></a>
-<br/><sub>A developer blog built with Next.js 16, featuring file-based MDX content powe...</sub>
-<br/><br/>
-<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" width="50%">
 <a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301988%2Fmonitor-tests%2Fleetcode-ui&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
 <a href="https://leetcode-tracker-qvf.pages.dev"><b>leetcode-ui</b></a>
@@ -96,6 +60,42 @@ currently:
 <br/><sub>Personal developer portfolio built with Next.js 16, TypeScript, and Tailwind ...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<a href="https://blog.wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301983%2Fmonitor-tests%2Fblog&w=600&h=300&fit=cover&n=30&output=webp" alt="blog" width="100%"></a>
+<br/>
+<a href="https://blog.wrujel.com"><b>blog</b></a>
+<br/><sub>A developer blog built with Next.js 16, featuring file-based MDX content powe...</sub>
+<br/><br/>
+<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
+</td>
+<td align="center" valign="top" width="50%">
+<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301992%2Fmonitor-tests%2Fwebpage-gpt&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
+<br/>
+<a href="https://github.com/wrujel/webpage-gpt"><b>webpage-gpt</b></a>
+<br/><sub>This is a fully responsive web page, built with React and deployed on Vercel.</sub>
+<br/><br/>
+<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS" height="18"></sub>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301998%2Fmonitor-tests%2Fadmin-dashboard-next&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
+<br/>
+<a href="https://github.com/wrujel/admin-dashboard-next"><b>admin-dashboard-next</b></a>
+<br/><sub>Admin Dashboard built with Next 14, React 18, and TypeScript.</sub>
+<br/><br/>
+<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
+</td>
+<td align="center" valign="top" width="50%">
+<a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1777301991%2Fmonitor-tests%2Fdjango-crud-react&w=600&h=300&fit=cover&n=30&output=webp" alt="django-crud-react" width="100%"></a>
+<br/>
+<a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
+<br/><sub>This project is a simple REST API with Django and React.</sub>
+<br/><br/>
+<sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" height="18"></sub>
 </td>
 </tr>
 </table>
