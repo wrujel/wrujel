@@ -85,7 +85,7 @@ currently:
 <a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091375%2Fmonitor-tests%2Fadmin-dashboard-next&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/admin-dashboard-next"><b>admin-dashboard-next</b></a>
-<br/><sub>Admin Dashboard built with Next 14, React 18, and TypeScript.</sub>
+<br/><sub>Admin Dashboard built with Next 16, React 19, Tailwind CSS v4, and TypeScript.</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
