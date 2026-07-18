@@ -110,33 +110,33 @@ currently:
 
 <table width="100%">
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/async-concurrency-control-nodejs-semaphores-70df4a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1780720244/blog/9c263b7d-e4ad-4de7-80f7-ac27023f9161_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/async-concurrency-control-nodejs-semaphores-70df4a"><b>Async Concurrency Control in Node.js: Semaphores, Throttling, and Backpressure</b></a><br><sub>Unbounded Promise.all is a silent OOM killer — here's how to build semaphores, t…</sub></td>
-    <td align="right" valign="top"><sub>📅 May 30, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-full-text-search-without-elasticsearch-d9269e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323427/blog/fae350bd-2c1f-4a47-8033-15381345bcbb_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/postgres-full-text-search-without-elasticsearch-d9269e"><b>Full-Text Search in Postgres: Skip Elasticsearch for Most Use Cases</b></a><br><sub>Postgres has a powerful built-in full-text search engine using tsvector, tsquery…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jul 11, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/transactional-outbox-pattern-reliable-event-publishing-bbc7e2"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778970724/blog/2e1e1f15-fc39-4bb6-8111-db3a878b240c_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/transactional-outbox-pattern-reliable-event-publishing-bbc7e2"><b>The Transactional Outbox Pattern: Solving Dual-Write in Distributed Systems</b></a><br><sub>How the transactional outbox pattern eliminates the dual-write problem and guara…</sub></td>
-    <td align="right" valign="top"><sub>📅 May 16, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/streaming-large-datasets-nodejs-backpressure-55e2c4"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323410/blog/5d19e549-a7b2-4e7f-99c8-f8e8ab320498_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/streaming-large-datasets-nodejs-backpressure-55e2c4"><b>Streaming Large Datasets in Node.js: Backpressure and Async Generators</b></a><br><sub>Stop loading entire result sets into memory: how Node.js streams and async gener…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jul 4, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/async-local-storage-request-context-nodejs-dd11f4"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642543/blog/11671b1c-1a30-4739-a7a3-78751ba14bd5_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/async-local-storage-request-context-nodejs-dd11f4"><b>Request Context Without Prop Drilling: AsyncLocalStorage in Node.js</b></a><br><sub>Use AsyncLocalStorage to propagate request-scoped context — trace IDs, user sess…</sub></td>
-    <td align="right" valign="top"><sub>📅 May 9, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/distributed-locks-coordinating-work-across-nodes-cd19de"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323409/blog/1c31eef1-b3f9-4cd7-bb49-bb22fbb09415_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/distributed-locks-coordinating-work-across-nodes-cd19de"><b>Distributed Locks: Coordinating Work Across Multiple Nodes</b></a><br><sub>Stop racing conditions in distributed systems: a practical guide to implementing…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jun 27, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-branded-types-domain-modeling-564074"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642478/blog/bc98ecd8-28e3-4832-9001-84175bab286a_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/typescript-branded-types-domain-modeling-564074"><b>TypeScript Branded Types: Compile-Time Domain Modeling</b></a><br><sub>Eliminate a whole class of runtime bugs by teaching TypeScript's type system the…</sub></td>
-    <td align="right" valign="top"><sub>📅 May 2, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 5 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-satisfies-operator-type-inference-38e542"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323371/blog/c391486d-9936-4cfd-a1af-1d14dd87bc90_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/typescript-satisfies-operator-type-inference-38e542"><b>TypeScript's satisfies Operator: Type Safety Without Losing Inference</b></a><br><sub>TypeScript's satisfies operator validates that a value matches a type while pres…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jun 20, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/contract-first-api-design-openapi-typescript-2b59ac"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1778642468/blog/2efe62b4-8e8e-4d01-9837-f386592de234_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/contract-first-api-design-openapi-typescript-2b59ac"><b>Contract-First API Design with OpenAPI and TypeScript</b></a><br><sub>Stop letting your API spec drift from your implementation — define the contract…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 25, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/type-safe-event-emitters-typescript-663c37"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323384/blog/53947eba-1955-4697-975a-da567d9edeab_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/type-safe-event-emitters-typescript-663c37"><b>Type-Safe Event Emitters in TypeScript</b></a><br><sub>Replace Node's stringly-typed EventEmitter with a generic typed alternative that…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jun 13, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
