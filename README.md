@@ -46,7 +46,7 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091360%2Fmonitor-tests%2Fleetcode-ui&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
+<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091360%2Fmonitor-tests%2Fleetcode-ui&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
 <a href="https://leetcode-tracker-qvf.pages.dev"><b>leetcode-ui</b></a>
 <br/><sub>Personal LeetCode progress dashboard built with Astro 5, React 19, and Tailwi...</sub>
@@ -54,7 +54,7 @@ currently:
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091366%2Fmonitor-tests%2Fportfolio&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio" width="100%"></a>
+<a href="https://wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1785500577%2F6943214c3088bd2d&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio" width="100%"></a>
 <br/>
 <a href="https://wrujel.com"><b>portfolio</b></a>
 <br/><sub>Personal developer portfolio built with Next.js 16, TypeScript, and Tailwind ...</sub>
@@ -64,7 +64,7 @@ currently:
 </tr>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://blog.wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091367%2Fmonitor-tests%2Fblog&w=600&h=300&fit=cover&n=30&output=webp" alt="blog" width="100%"></a>
+<a href="https://blog.wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091367%2Fmonitor-tests%2Fblog&w=600&h=300&fit=cover&n=30&output=webp" alt="blog" width="100%"></a>
 <br/>
 <a href="https://blog.wrujel.com"><b>blog</b></a>
 <br/><sub>A developer blog built with Next.js 16, featuring file-based MDX content powe...</sub>
@@ -72,7 +72,7 @@ currently:
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091369%2Fmonitor-tests%2Fwebpage-gpt&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
+<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091369%2Fmonitor-tests%2Fwebpage-gpt&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/webpage-gpt"><b>webpage-gpt</b></a>
 <br/><sub>This is a fully responsive web page, built with React and deployed on Vercel.</sub>
@@ -82,7 +82,7 @@ currently:
 </tr>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091375%2Fmonitor-tests%2Fadmin-dashboard-next&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
+<a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091375%2Fmonitor-tests%2Fadmin-dashboard-next&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/admin-dashboard-next"><b>admin-dashboard-next</b></a>
 <br/><sub>Admin Dashboard built with Next 16, React 19, Tailwind CSS v4, and TypeScript.</sub>
@@ -90,7 +90,7 @@ currently:
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_fill%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091368%2Fmonitor-tests%2Fdjango-crud-react&w=600&h=300&fit=cover&n=30&output=webp" alt="django-crud-react" width="100%"></a>
+<a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cdl_100%2Fv1783091368%2Fmonitor-tests%2Fdjango-crud-react&w=600&h=300&fit=cover&n=30&output=webp" alt="django-crud-react" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
 <br/><sub>This project is a simple REST API with Django and React.</sub>
