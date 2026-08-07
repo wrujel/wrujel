@@ -46,7 +46,7 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785809955%2F599832ed8b5d21c3&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
+<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
 <a href="https://leetcode-tracker-qvf.pages.dev"><b>leetcode-ui</b></a>
 <br/><sub>Personal LeetCode progress dashboard built with Astro 5, React 19, and Tailwi...</sub>
@@ -110,6 +110,18 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786069038/blog/ec2cfe42-b736-4d23-9812-eb10196cbf39_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><b>Evolving Event Schemas Without Breaking Consumers</b></a><br><sub>How to add fields, rename properties, and restructure events in async systems wi…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jul 25, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/request-coalescing-thundering-herd-prevention-nodejs-42e380"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786061323/blog/b6e3cd91-8460-47ad-aa36-cda83c8c725d_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/request-coalescing-thundering-herd-prevention-nodejs-42e380"><b>Request Coalescing: Preventing the Thundering Herd in Node.js</b></a><br><sub>When a cache entry expires under high traffic, dozens of requests race to rebuil…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jul 18, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-full-text-search-without-elasticsearch-d9269e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323427/blog/fae350bd-2c1f-4a47-8033-15381345bcbb_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/postgres-full-text-search-without-elasticsearch-d9269e"><b>Full-Text Search in Postgres: Skip Elasticsearch for Most Use Cases</b></a><br><sub>Postgres has a powerful built-in full-text search engine using tsvector, tsquery…</sub></td>
     <td align="right" valign="top"><sub>📅 Jul 11, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -125,18 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/distributed-locks-coordinating-work-across-nodes-cd19de"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323409/blog/1c31eef1-b3f9-4cd7-bb49-bb22fbb09415_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/distributed-locks-coordinating-work-across-nodes-cd19de"><b>Distributed Locks: Coordinating Work Across Multiple Nodes</b></a><br><sub>Stop racing conditions in distributed systems: a practical guide to implementing…</sub></td>
     <td align="right" valign="top"><sub>📅 Jun 27, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-satisfies-operator-type-inference-38e542"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323371/blog/c391486d-9936-4cfd-a1af-1d14dd87bc90_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/typescript-satisfies-operator-type-inference-38e542"><b>TypeScript's satisfies Operator: Type Safety Without Losing Inference</b></a><br><sub>TypeScript's satisfies operator validates that a value matches a type while pres…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jun 20, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/type-safe-event-emitters-typescript-663c37"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323384/blog/53947eba-1955-4697-975a-da567d9edeab_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/type-safe-event-emitters-typescript-663c37"><b>Type-Safe Event Emitters in TypeScript</b></a><br><sub>Replace Node's stringly-typed EventEmitter with a generic typed alternative that…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jun 13, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
