@@ -46,43 +46,7 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/airbnb-clone"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249761/monitor-tests/airbnb-clone" alt="airbnb-clone" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/airbnb-clone"><b>airbnb-clone</b></a>
-<br/><sub>Airbnb app clone with Next.js 13, that allows you to search for properties, a...</sub>
-<br/><br/>
-<sub>⭐ 27 &nbsp;•&nbsp; 🍴 12 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
-</td>
-<td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/portfolio-web-template"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249770/monitor-tests/portfolio-web-template" alt="portfolio-web-template" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/portfolio-web-template"><b>portfolio-web-template</b></a>
-<br/><sub> This a project to create a web portfolio using Next.js 14, React, TypeScript...</sub>
-<br/><br/>
-<sub>⭐ 4 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/tesla-landing"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249775/monitor-tests/tesla-landing" alt="tesla-landing" width="100%"></a>
-<br/>
-<a href="https://github.com/wrujel/tesla-landing"><b>tesla-landing</b></a>
-<br/><sub>Tesla landing with Astro and Tailwind, fully responsive design.</sub>
-<br/><br/>
-<sub>⭐ 3 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white" alt="Astro" height="18"></sub>
-</td>
-<td align="center" valign="top" width="50%">
-<a href="https://blog.wrujel.com"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777300477/monitor-tests/blog" alt="blog" width="100%"></a>
-<br/>
-<a href="https://blog.wrujel.com"><b>blog</b></a>
-<br/><sub>A developer blog built with Next.js 16, featuring file-based MDX content powe...</sub>
-<br/><br/>
-<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
-</td>
-</tr>
-<tr>
-<td align="center" valign="top" width="50%">
-<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249767/monitor-tests/leetcode-ui" alt="leetcode-ui" width="100%"></a>
+<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
 <a href="https://leetcode-tracker-qvf.pages.dev"><b>leetcode-ui</b></a>
 <br/><sub>Personal LeetCode progress dashboard built with Astro 5, React 19, and Tailwi...</sub>
@@ -90,12 +54,48 @@ currently:
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://wrujel.com"><img src="https://res.cloudinary.com/dwovtydne/video/upload/w_600,h_300,c_fill,e_loop,q_auto,f_gif,dl_100/v1777249771/monitor-tests/portfolio" alt="portfolio" width="100%"></a>
+<a href="https://wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785810301%2Fb9a7a74524a4c014&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio" width="100%"></a>
 <br/>
 <a href="https://wrujel.com"><b>portfolio</b></a>
 <br/><sub>Personal developer portfolio built with Next.js 16, TypeScript, and Tailwind ...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<a href="https://blog.wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785809714%2F5cc6a61195de09e4&w=600&h=300&fit=cover&n=30&output=webp" alt="blog" width="100%"></a>
+<br/>
+<a href="https://blog.wrujel.com"><b>blog</b></a>
+<br/><sub>A developer blog built with Next.js 16, featuring file-based MDX content powe...</sub>
+<br/><br/>
+<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
+</td>
+<td align="center" valign="top" width="50%">
+<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785810606%2F8bf92446186c1c27&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
+<br/>
+<a href="https://github.com/wrujel/webpage-gpt"><b>webpage-gpt</b></a>
+<br/><sub>This is a fully responsive web page, built with React and deployed on Vercel.</sub>
+<br/><br/>
+<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS" height="18"></sub>
+</td>
+</tr>
+<tr>
+<td align="center" valign="top" width="50%">
+<a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785809504%2Fdcb3873879059085&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
+<br/>
+<a href="https://github.com/wrujel/admin-dashboard-next"><b>admin-dashboard-next</b></a>
+<br/><sub>Admin Dashboard built with Next 16, React 19, Tailwind CSS v4, and TypeScript.</sub>
+<br/><br/>
+<sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
+</td>
+<td align="center" valign="top" width="50%">
+<a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785814401%2F082ad45496341154&w=600&h=300&fit=cover&n=30&output=webp" alt="django-crud-react" width="100%"></a>
+<br/>
+<a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
+<br/><sub>This project is a simple REST API with Django and React.</sub>
+<br/><br/>
+<sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" height="18"></sub>
 </td>
 </tr>
 </table>
@@ -110,33 +110,33 @@ currently:
 
 <table width="100%">
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776534337/blog/0886e74d-468c-497a-a56e-05b802a99986_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/graceful-shutdown-nodejs-production-services-739770"><b>Graceful Shutdown in Node.js Production Services</b></a><br><sub>Most Node.js services silently drop in-flight requests on every deploy. Here's h…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 18, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786234133/blog/5fb6f8a2-0158-4663-bbfa-9a7972010636_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><b>Cancellation Patterns in TypeScript: Taming AbortController</b></a><br><sub>Why most async TypeScript code ignores cancellation entirely, and how to build c…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/composable-middleware-pipelines-typescript-017190"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776002444/blog/6aa479db-670c-405c-b56f-0229208314cf_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/composable-middleware-pipelines-typescript-017190"><b>Composable Middleware Pipelines in TypeScript</b></a><br><sub>Stop bolting middleware onto frameworks and start building type-safe, composable…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 12, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786208165/blog/f66fdf65-0d74-4561-9991-f70a633fe428_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><b>Multi-Region Database Failover: What Actually Breaks in Production</b></a><br><sub>Multi-region failover looks simple on an architecture diagram — the reality invo…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/runtime-type-safety-zod-validation-boundaries-ed4ad0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1776001906/blog/8c300ec1-5066-4788-84cb-7a2ef2c38878_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/runtime-type-safety-zod-validation-boundaries-ed4ad0"><b>Runtime Type Safety with Zod: Validating at Every Boundary</b></a><br><sub>TypeScript's type system stops at compile time — Zod closes the gap by validatin…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 11, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786201442/blog/f1bd158e-4321-4d2b-8d59-d3987459619b_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><b>TypeScript Template Literal Types: Building Expressive, Type-Safe APIs</b></a><br><sub>Use TypeScript template literal types to encode event names, route patterns, and…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/http-caching-cache-control-etags-cdn-strategies-cfce0a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1775476662/blog/6707b48e-e08b-4ff5-b1b1-e59806ca8a13_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/http-caching-cache-control-etags-cdn-strategies-cfce0a"><b>HTTP Caching Demystified: Cache-Control, ETags, and CDN Strategies</b></a><br><sub>A practical guide to HTTP caching headers — what each directive actually does, w…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 4, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786070061/blog/04880c37-fb61-45e5-8c40-cee26c451593_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><b>Soft Deletes: The Feature That Costs More Than It Saves</b></a><br><sub>Soft deletes look like a simple safety net, but they silently corrupt your schem…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 1, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/react-server-actions-patterns-pitfalls-production-381b58"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1775489836/blog/84ba41e5-98c4-4cdf-b717-a497b4e8df89_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/react-server-actions-patterns-pitfalls-production-381b58"><b>React Server Actions: Patterns, Pitfalls, and Production Use</b></a><br><sub>Server Actions bring form handling and mutations back to the server in Next.js —…</sub></td>
-    <td align="right" valign="top"><sub>📅 Apr 1, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786069038/blog/ec2cfe42-b736-4d23-9812-eb10196cbf39_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><b>Evolving Event Schemas Without Breaking Consumers</b></a><br><sub>How to add fields, rename properties, and restructure events in async systems wi…</sub></td>
+    <td align="right" valign="top"><sub>📅 Jul 25, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
@@ -149,21 +149,21 @@ currently:
 <!-- LEETCODE_START -->
 ### 🧩 LeetCode Insights
 
-> **3885** problems solved | **6** languages | **72** topics | **57%** avg acceptance
+> **3921** problems solved | **6** languages | **72** topics | **57%** avg acceptance
 
 #### Difficulty Breakdown
 
 | Difficulty | Solved | Progress |
 |:-----------|-------:|:---------|
-| 🟢 Easy | 936/936 | `████████████████████` 100.0% |
-| 🟡 Medium | 2030/2030 | `████████████████████` 100.0% |
-| 🔴 Hard | 919/919 | `████████████████████` 100.0% |
+| 🟢 Easy | 944/944 | `████████████████████` 100.0% |
+| 🟡 Medium | 2048/2050 | `████████████████████` 99.9% |
+| 🔴 Hard | 929/930 | `████████████████████` 99.9% |
 
 #### Top Languages
 
 <table>
 <tr><th>Language</th><th align="right">Problems</th><th align="right">Share</th></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=rust" height="20" alt="rust" />&nbsp;&nbsp;Rust</td><td align="right">3420</td><td align="right">88%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=rust" height="20" alt="rust" />&nbsp;&nbsp;Rust</td><td align="right">3456</td><td align="right">88%</td></tr>
 <tr><td><img src="https://cdn.simpleicons.org/pandas" height="20" alt="pandas" />&nbsp;&nbsp;Pandas</td><td align="right">235</td><td align="right">6%</td></tr>
 <tr><td><img src="https://skillicons.dev/icons?i=mysql" height="20" alt="sql" />&nbsp;&nbsp;Sql</td><td align="right">103</td><td align="right">3%</td></tr>
 <tr><td><img src="https://skillicons.dev/icons?i=ts" height="20" alt="typescript" />&nbsp;&nbsp;Typescript</td><td align="right">67</td><td align="right">2%</td></tr>
