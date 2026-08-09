@@ -110,33 +110,33 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786234133/blog/5fb6f8a2-0158-4663-bbfa-9a7972010636_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><b>Cancellation Patterns in TypeScript: Taming AbortController</b></a><br><sub>Why most async TypeScript code ignores cancellation entirely, and how to build c…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786208165/blog/f66fdf65-0d74-4561-9991-f70a633fe428_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><b>Multi-Region Database Failover: What Actually Breaks in Production</b></a><br><sub>Multi-region failover looks simple on an architecture diagram — the reality invo…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786201442/blog/f1bd158e-4321-4d2b-8d59-d3987459619b_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><b>TypeScript Template Literal Types: Building Expressive, Type-Safe APIs</b></a><br><sub>Use TypeScript template literal types to encode event names, route patterns, and…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786070061/blog/04880c37-fb61-45e5-8c40-cee26c451593_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><b>Soft Deletes: The Feature That Costs More Than It Saves</b></a><br><sub>Soft deletes look like a simple safety net, but they silently corrupt your schem…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 1, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786069038/blog/ec2cfe42-b736-4d23-9812-eb10196cbf39_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><b>Evolving Event Schemas Without Breaking Consumers</b></a><br><sub>How to add fields, rename properties, and restructure events in async systems wi…</sub></td>
     <td align="right" valign="top"><sub>📅 Jul 25, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/request-coalescing-thundering-herd-prevention-nodejs-42e380"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786061323/blog/b6e3cd91-8460-47ad-aa36-cda83c8c725d_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/request-coalescing-thundering-herd-prevention-nodejs-42e380"><b>Request Coalescing: Preventing the Thundering Herd in Node.js</b></a><br><sub>When a cache entry expires under high traffic, dozens of requests race to rebuil…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jul 18, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-full-text-search-without-elasticsearch-d9269e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323427/blog/fae350bd-2c1f-4a47-8033-15381345bcbb_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/postgres-full-text-search-without-elasticsearch-d9269e"><b>Full-Text Search in Postgres: Skip Elasticsearch for Most Use Cases</b></a><br><sub>Postgres has a powerful built-in full-text search engine using tsvector, tsquery…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jul 11, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/streaming-large-datasets-nodejs-backpressure-55e2c4"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323410/blog/5d19e549-a7b2-4e7f-99c8-f8e8ab320498_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/streaming-large-datasets-nodejs-backpressure-55e2c4"><b>Streaming Large Datasets in Node.js: Backpressure and Async Generators</b></a><br><sub>Stop loading entire result sets into memory: how Node.js streams and async gener…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jul 4, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/distributed-locks-coordinating-work-across-nodes-cd19de"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1784323409/blog/1c31eef1-b3f9-4cd7-bb49-bb22fbb09415_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/distributed-locks-coordinating-work-across-nodes-cd19de"><b>Distributed Locks: Coordinating Work Across Multiple Nodes</b></a><br><sub>Stop racing conditions in distributed systems: a practical guide to implementing…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jun 27, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
