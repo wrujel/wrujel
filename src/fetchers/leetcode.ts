@@ -35,7 +35,7 @@ interface InsightsResponse {
   };
 }
 
-const LEETCODE_API = "https://leetcode-tracker-qvf.pages.dev/api/insights";
+const LEETCODE_API = "https://leetcode.wrujel.website/api/insights";
 
 function progressBar(value: number, max: number, length = 20): string {
   const filled = Math.round((value / max) * length);
@@ -121,7 +121,9 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     lines.push("");
     const topLangs = languageDistribution.slice(0, 5);
     lines.push("<table>");
-    lines.push("<tr><th>Language</th><th align=\"right\">Problems</th><th align=\"right\">Share</th></tr>");
+    lines.push(
+      '<tr><th>Language</th><th align="right">Problems</th><th align="right">Share</th></tr>',
+    );
     for (const l of topLangs) {
       const name = l.language.charAt(0).toUpperCase() + l.language.slice(1);
       lines.push(
@@ -132,7 +134,7 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     lines.push("");
 
     lines.push(
-      `<p align="right"><a href="https://leetcode-tracker-qvf.pages.dev/">📊 Full Dashboard →</a></p>`,
+      `<p align="right"><a href="https://leetcode.wrujel.website/">📊 Full Dashboard →</a></p>`,
     );
 
     return lines.join("\n");
@@ -141,7 +143,7 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     return [
       "### 🧩 LeetCode Insights",
       "",
-      "> Stats temporarily unavailable. Visit the [full dashboard](https://leetcode-tracker-qvf.pages.dev/) for details.",
+      "> Stats temporarily unavailable. Visit the [full dashboard](https://leetcode.wrujel.website/) for details.",
     ].join("\n");
   }
 }
