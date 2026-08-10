@@ -46,10 +46,10 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
+<a href="https://leetcode.wrujel.website/"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
-<a href="https://leetcode-tracker-qvf.pages.dev"><b>leetcode-ui</b></a>
-<br/><sub>Personal LeetCode progress dashboard built with Astro 5, React 19, and Tailwi...</sub>
+<a href="https://leetcode.wrujel.website/"><b>leetcode-ui</b></a>
+<br/><sub>Personal LeetCode progress dashboard built with Astro 7, React 19, and Tailwi...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
@@ -170,7 +170,7 @@ currently:
 <tr><td><img src="https://skillicons.dev/icons?i=cpp" height="20" alt="cpp" />&nbsp;&nbsp;Cpp</td><td align="right">56</td><td align="right">1%</td></tr>
 </table>
 
-<p align="right"><a href="https://leetcode-tracker-qvf.pages.dev/">📊 Full Dashboard →</a></p>
+<p align="right"><a href="https://leetcode.wrujel.website/">📊 Full Dashboard →</a></p>
 <!-- LEETCODE_END -->
 
 ---
