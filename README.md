@@ -72,7 +72,7 @@ currently:
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785810606%2F8bf92446186c1c27&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
+<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1786733597%2F59e34c58e41dd2d1&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/webpage-gpt"><b>webpage-gpt</b></a>
 <br/><sub>This is a fully responsive web page, built with React and deployed on Vercel.</sub>
