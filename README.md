@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786788541/blog/bfb398f3-ed90-4c04-ba0f-3d59866eabf8_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><b>Idempotency Keys in Practice: Making Retries Safe</b></a><br><sub>How to design and implement idempotency keys so retried requests never double-ch…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 15, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786234133/blog/5fb6f8a2-0158-4663-bbfa-9a7972010636_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><b>Cancellation Patterns in TypeScript: Taming AbortController</b></a><br><sub>Why most async TypeScript code ignores cancellation entirely, and how to build c…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786070061/blog/04880c37-fb61-45e5-8c40-cee26c451593_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><b>Soft Deletes: The Feature That Costs More Than It Saves</b></a><br><sub>Soft deletes look like a simple safety net, but they silently corrupt your schem…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 1, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786069038/blog/ec2cfe42-b736-4d23-9812-eb10196cbf39_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><b>Evolving Event Schemas Without Breaking Consumers</b></a><br><sub>How to add fields, rename properties, and restructure events in async systems wi…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jul 25, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
