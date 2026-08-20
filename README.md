@@ -75,7 +75,7 @@ currently:
 <a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1786733597%2F59e34c58e41dd2d1&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/webpage-gpt"><b>webpage-gpt</b></a>
-<br/><sub>This is a fully responsive web page, built with React and deployed on Vercel.</sub>
+<br/><sub>Cinematic GPT-Bot landing page with a GSAP scroll-story hero and a WebGL auro...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS" height="18"></sub>
 </td>
@@ -85,7 +85,7 @@ currently:
 <a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785809504%2Fdcb3873879059085&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/admin-dashboard-next"><b>admin-dashboard-next</b></a>
-<br/><sub>Admin Dashboard built with Next 16, React 19, Tailwind CSS v4, and TypeScript.</sub>
+<br/><sub>Real-time admin dashboard with generic data tables, animated charts and a liv...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
@@ -93,7 +93,7 @@ currently:
 <a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785814401%2F082ad45496341154&w=600&h=300&fit=cover&n=30&output=webp" alt="django-crud-react" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
-<br/><sub>This project is a simple REST API with Django and React.</sub>
+<br/><sub>Full-stack task manager with drag-and-drop ordering, live filters and a stats...</sub>
 <br/><br/>
 <sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" height="18"></sub>
 </td>
