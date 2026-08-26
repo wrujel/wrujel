@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787710479/74f37d5190e35b94.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><b>Designing Idempotent Background Jobs: Retries, Locks, and the Exactly-Once Illusion</b></a><br><sub>Exactly-once processing doesn't exist in distributed systems—here's how to desig…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 26, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787393357/blog/fb4e4ee5-e96a-4ac5-89ae-4543cb40b782_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><b>Materialized Views in Postgres: Trading Freshness for Speed</b></a><br><sub>How to use materialized views to speed up expensive aggregations in Postgres wit…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 22, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786208165/blog/f66fdf65-0d74-4561-9991-f70a633fe428_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><b>Multi-Region Database Failover: What Actually Breaks in Production</b></a><br><sub>Multi-region failover looks simple on an architecture diagram — the reality invo…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786201442/blog/f1bd158e-4321-4d2b-8d59-d3987459619b_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><b>TypeScript Template Literal Types: Building Expressive, Type-Safe APIs</b></a><br><sub>Use TypeScript template literal types to encode event names, route patterns, and…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
