@@ -46,10 +46,10 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://leetcode-tracker-qvf.pages.dev"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
+<a href="https://leetcode.wrujel.website/"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
-<a href="https://leetcode-tracker-qvf.pages.dev"><b>leetcode-ui</b></a>
-<br/><sub>Personal LeetCode progress dashboard built with Astro 5, React 19, and Tailwi...</sub>
+<a href="https://leetcode.wrujel.website/"><b>leetcode-ui</b></a>
+<br/><sub>Personal LeetCode progress dashboard built with Astro 7, React 19, and Tailwi...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
@@ -72,10 +72,10 @@ currently:
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
 </td>
 <td align="center" valign="top" width="50%">
-<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785810606%2F8bf92446186c1c27&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
+<a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1786733597%2F59e34c58e41dd2d1&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/webpage-gpt"><b>webpage-gpt</b></a>
-<br/><sub>This is a fully responsive web page, built with React and deployed on Vercel.</sub>
+<br/><sub>Cinematic GPT-Bot landing page with a GSAP scroll-story hero and a WebGL auro...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS" height="18"></sub>
 </td>
@@ -85,7 +85,7 @@ currently:
 <a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785809504%2Fdcb3873879059085&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/admin-dashboard-next"><b>admin-dashboard-next</b></a>
-<br/><sub>Admin Dashboard built with Next 16, React 19, Tailwind CSS v4, and TypeScript.</sub>
+<br/><sub>Real-time admin dashboard with generic data tables, animated charts and a liv...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
@@ -93,7 +93,7 @@ currently:
 <a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785814401%2F082ad45496341154&w=600&h=300&fit=cover&n=30&output=webp" alt="django-crud-react" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
-<br/><sub>This project is a simple REST API with Django and React.</sub>
+<br/><sub>Full-stack task manager with drag-and-drop ordering, live filters and a stats...</sub>
 <br/><br/>
 <sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" height="18"></sub>
 </td>
@@ -110,6 +110,24 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787710479/74f37d5190e35b94.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><b>Designing Idempotent Background Jobs: Retries, Locks, and the Exactly-Once Illusion</b></a><br><sub>Exactly-once processing doesn't exist in distributed systems—here's how to desig…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 26, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787393357/blog/fb4e4ee5-e96a-4ac5-89ae-4543cb40b782_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><b>Materialized Views in Postgres: Trading Freshness for Speed</b></a><br><sub>How to use materialized views to speed up expensive aggregations in Postgres wit…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 22, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786788541/blog/bfb398f3-ed90-4c04-ba0f-3d59866eabf8_image_1.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><b>Idempotency Keys in Practice: Making Retries Safe</b></a><br><sub>How to design and implement idempotency keys so retried requests never double-ch…</sub></td>
+    <td align="right" valign="top"><sub>📅 Aug 15, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786234133/blog/5fb6f8a2-0158-4663-bbfa-9a7972010636_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><b>Cancellation Patterns in TypeScript: Taming AbortController</b></a><br><sub>Why most async TypeScript code ignores cancellation entirely, and how to build c…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -119,24 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786208165/blog/f66fdf65-0d74-4561-9991-f70a633fe428_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><b>Multi-Region Database Failover: What Actually Breaks in Production</b></a><br><sub>Multi-region failover looks simple on an architecture diagram — the reality invo…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786201442/blog/f1bd158e-4321-4d2b-8d59-d3987459619b_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/typescript-template-literal-types-expressive-apis-33b3b9"><b>TypeScript Template Literal Types: Building Expressive, Type-Safe APIs</b></a><br><sub>Use TypeScript template literal types to encode event names, route patterns, and…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786070061/blog/04880c37-fb61-45e5-8c40-cee26c451593_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/soft-deletes-hidden-complexity-production-databases-f6a6a0"><b>Soft Deletes: The Feature That Costs More Than It Saves</b></a><br><sub>Soft deletes look like a simple safety net, but they silently corrupt your schem…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 1, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786069038/blog/ec2cfe42-b736-4d23-9812-eb10196cbf39_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/evolving-event-schemas-backward-compatibility-39382e"><b>Evolving Event Schemas Without Breaking Consumers</b></a><br><sub>How to add fields, rename properties, and restructure events in async systems wi…</sub></td>
-    <td align="right" valign="top"><sub>📅 Jul 25, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
@@ -170,7 +170,7 @@ currently:
 <tr><td><img src="https://skillicons.dev/icons?i=cpp" height="20" alt="cpp" />&nbsp;&nbsp;Cpp</td><td align="right">56</td><td align="right">1%</td></tr>
 </table>
 
-<p align="right"><a href="https://leetcode-tracker-qvf.pages.dev/">📊 Full Dashboard →</a></p>
+<p align="right"><a href="https://leetcode.wrujel.website/">📊 Full Dashboard →</a></p>
 <!-- LEETCODE_END -->
 
 ---
