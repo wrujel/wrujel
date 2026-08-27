@@ -55,42 +55,90 @@ function replaceSection(
   );
 }
 
+function extractSection(
+  content: string,
+  startMarker: string,
+  endMarker: string,
+): string | null {
+  const startIdx = content.indexOf(startMarker);
+  const endIdx = content.indexOf(endMarker);
+
+  if (startIdx === -1 || endIdx === -1 || endIdx < startIdx) return null;
+
+  const body = content.slice(startIdx + startMarker.length, endIdx).trim();
+  return body.length > 0 ? body : null;
+}
+
+function sectionName(startMarker: string): string {
+  return startMarker.replace(/<!-- |_START -->/g, "");
+}
+
+type SectionResult =
+  | { section: Section; ok: true; content: string }
+  | { section: Section; ok: false; error: unknown };
+
 async function main() {
   console.log("📝 Building README.md...\n");
 
-  // Use existing README.md as base so failed sections preserve last-good content.
-  // Fall back to the template on first run when README.md doesn't exist yet.
-  let template: string;
+  // README.template.md is always the base, so edits to the static layout take
+  // effect on every build. The previous README.md is read only to restore
+  // last-good content for a section whose fetcher fails.
+  const template = await readFile(TEMPLATE_PATH, "utf-8");
+
+  let previous = "";
   try {
-    template = await readFile(OUTPUT_PATH, "utf-8");
-    console.log("📂 Using existing README.md as base\n");
+    previous = await readFile(OUTPUT_PATH, "utf-8");
   } catch {
-    template = await readFile(TEMPLATE_PATH, "utf-8");
-    console.log("📄 Using README.template.md as base\n");
+    console.log("📄 No existing README.md — nothing to fall back on\n");
   }
 
-  // Fetch all sections in parallel
-  const results = await Promise.allSettled(
-    sections.map(async (s) => ({
-      ...s,
-      content: await s.fetcher(),
-    })),
+  // Settle every section individually so a failure still tells us which
+  // section it came from, and can be restored from the previous output.
+  const results: SectionResult[] = await Promise.all(
+    sections.map(async (section): Promise<SectionResult> => {
+      try {
+        return { section, ok: true, content: await section.fetcher() };
+      } catch (error) {
+        return { section, ok: false, error };
+      }
+    }),
   );
 
   let readme = template;
+  let restored = 0;
+  let lost = 0;
 
   for (const result of results) {
-    if (result.status === "fulfilled") {
-      const { startMarker, endMarker, content } = result.value;
-      console.log(`✅ ${startMarker.replace(/<!-- |_START -->/g, "")}`);
-      readme = replaceSection(readme, startMarker, endMarker, content);
+    const { startMarker, endMarker } = result.section;
+    const name = sectionName(startMarker);
+
+    if (result.ok) {
+      console.log(`✅ ${name}`);
+      readme = replaceSection(readme, startMarker, endMarker, result.content);
+      continue;
+    }
+
+    console.error(`❌ ${name} failed:`, result.error);
+
+    const lastGood = extractSection(previous, startMarker, endMarker);
+    if (lastGood) {
+      restored++;
+      console.warn(`   ↩️  ${name}: reused last-good content`);
+      readme = replaceSection(readme, startMarker, endMarker, lastGood);
     } else {
-      console.error(`❌ Section failed:`, result.reason);
+      lost++;
+      console.warn(`   ⚠️  ${name}: no previous content to fall back on`);
     }
   }
 
   await writeFile(OUTPUT_PATH, readme, "utf-8");
   console.log(`\n🎉 README.md generated at ${OUTPUT_PATH}`);
+
+  if (restored > 0 || lost > 0) {
+    console.log(
+      `   ${restored} section(s) restored from last-good, ${lost} left empty`,
+    );
+  }
 }
 
 main().catch((err) => {

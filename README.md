@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/wrujel">
-    <img src="https://streak-stats.demolab.com/?user=wrujel&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" />
+    <img src="./profile/streak.svg" alt="GitHub Streak" />
   </a>
 </p>
 
