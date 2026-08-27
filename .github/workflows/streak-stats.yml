@@ -1,0 +1,34 @@
+name: Streak Stats
+
+on:
+  schedule:
+    - cron: "30 5 * * *" # Daily at 5:30 AM UTC (before README update)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  streak-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: "user=wrujel&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff"
+          path: profile/streak.svg
+          token: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A profile/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update streak stats [skip ci]"
+            git push
+          fi

@@ -84,7 +84,10 @@ async function main() {
   // local asset. Catches accidental "null"/"undefined"/empty values from APIs
   // before lychee chokes on them as file:// paths.
   const urlAttrRegex = /\b(?:src|href|srcset)\s*=\s*"([^"]*)"/gi;
-  const ALLOWED_LOCAL = new Set(["./profile-3d-contrib/profile-night-green.svg"]);
+  const ALLOWED_LOCAL = new Set([
+    "./profile-3d-contrib/profile-night-green.svg",
+    "./profile/streak.svg"
+  ]);
   const badAttrs: string[] = [];
   let m: RegExpExecArray | null;
   while ((m = urlAttrRegex.exec(readme)) !== null) {
@@ -112,6 +115,17 @@ async function main() {
   } catch {
     console.warn(
       "⚠️  3D contribution SVG: missing (3d-contrib workflow may not have run yet)"
+    );
+  }
+
+  // 5. Local streak SVG check (soft warning — streak-stats workflow generates it)
+  const streakPath = join(ROOT, "profile", "streak.svg");
+  try {
+    await access(streakPath);
+    console.log("✅ Streak stats SVG: present");
+  } catch {
+    console.warn(
+      "⚠️  Streak stats SVG: missing (streak-stats workflow may not have run yet)"
     );
   }
 

@@ -13,6 +13,7 @@ exclude = [
   "github\\.com/.*#",
   # img.shields.io has intermittent reliability
   "img\\.shields\\.io",
-  # Local asset path, not a real URL
+  # Local asset paths, not real URLs
   "profile-3d-contrib",
+  "profile/streak.svg",
 ]
