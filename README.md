@@ -49,7 +49,7 @@ currently:
 <a href="https://leetcode.wrujel.website/"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
 <a href="https://leetcode.wrujel.website/"><b>leetcode-ui</b></a>
-<br/><sub>Personal LeetCode progress dashboard built with Astro 7, React 19, and Tailwi...</sub>
+<br/><sub>Personal LeetCode progress dashboard built with Astro 7 and React 19: track s...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
@@ -57,7 +57,7 @@ currently:
 <a href="https://wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785810301%2Fb9a7a74524a4c014&w=600&h=300&fit=cover&n=30&output=webp" alt="portfolio" width="100%"></a>
 <br/>
 <a href="https://wrujel.com"><b>portfolio</b></a>
-<br/><sub>Personal developer portfolio built with Next.js 16, TypeScript, and Tailwind ...</sub>
+<br/><sub>Personal developer portfolio built with Next.js 16 and React 19, localized in...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
@@ -67,7 +67,7 @@ currently:
 <a href="https://blog.wrujel.com"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785809714%2F5cc6a61195de09e4&w=600&h=300&fit=cover&n=30&output=webp" alt="blog" width="100%"></a>
 <br/>
 <a href="https://blog.wrujel.com"><b>blog</b></a>
-<br/><sub>A developer blog built with Next.js 16, featuring file-based MDX content powe...</sub>
+<br/><sub>Developer blog built with Next.js 16 and Velite, serving file-based MDX artic...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-MDX-555?style=flat-square&logo=mdx&logoColor=white" alt="MDX" height="18"></sub>
 </td>
@@ -75,7 +75,7 @@ currently:
 <a href="https://github.com/wrujel/webpage-gpt"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1786733597%2F59e34c58e41dd2d1&w=600&h=300&fit=cover&n=30&output=webp" alt="webpage-gpt" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/webpage-gpt"><b>webpage-gpt</b></a>
-<br/><sub>Cinematic GPT-Bot landing page with a GSAP scroll-story hero and a WebGL auro...</sub>
+<br/><sub>Cinematic landing page for GPT-Bot, a fictional floating AI assistant, built ...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css&logoColor=white" alt="CSS" height="18"></sub>
 </td>
@@ -85,7 +85,7 @@ currently:
 <a href="https://github.com/wrujel/admin-dashboard-next"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785809504%2Fdcb3873879059085&w=600&h=300&fit=cover&n=30&output=webp" alt="admin-dashboard-next" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/admin-dashboard-next"><b>admin-dashboard-next</b></a>
-<br/><sub>Real-time admin dashboard with generic data tables, animated charts and a liv...</sub>
+<br/><sub>Real-time admin dashboard built with Next.js 16 and React 19, pairing generic...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
 </td>
@@ -93,7 +93,7 @@ currently:
 <a href="https://github.com/wrujel/django-crud-react"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785814401%2F082ad45496341154&w=600&h=300&fit=cover&n=30&output=webp" alt="django-crud-react" width="100%"></a>
 <br/>
 <a href="https://github.com/wrujel/django-crud-react"><b>django-crud-react</b></a>
-<br/><sub>Full-stack task manager with drag-and-drop ordering, live filters and a stats...</sub>
+<br/><sub>Full-stack task manager pairing a Django REST Framework API with a React 19 a...</sub>
 <br/><br/>
 <sub>⭐ 2 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=white" alt="JavaScript" height="18"></sub>
 </td>
@@ -109,6 +109,12 @@ currently:
 ### ✍️ Latest Blog Posts
 
 <table width="100%">
+  <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-row-level-security-multi-tenant-apps-bdc678"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1788659053/3eabfb2cf6eaddea.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/postgres-row-level-security-multi-tenant-apps-bdc678"><b>Postgres Row-Level Security for Multi-Tenant Applications</b></a><br><sub>How to enforce tenant isolation at the database layer with Postgres RLS instead…</sub></td>
+    <td align="right" valign="top"><sub>📅 Sep 6, 2026</sub><br><sub><code>security</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
   <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787710479/74f37d5190e35b94.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><b>Designing Idempotent Background Jobs: Retries, Locks, and the Exactly-Once Illusion</b></a><br><sub>Exactly-once processing doesn't exist in distributed systems—here's how to desig…</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786234133/blog/5fb6f8a2-0158-4663-bbfa-9a7972010636_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><b>Cancellation Patterns in TypeScript: Taming AbortController</b></a><br><sub>Why most async TypeScript code ignores cancellation entirely, and how to build c…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786208165/blog/f66fdf65-0d74-4561-9991-f70a633fe428_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/multi-region-database-failover-lessons-production-9d47a1-f4c405"><b>Multi-Region Database Failover: What Actually Breaks in Production</b></a><br><sub>Multi-region failover looks simple on an architecture diagram — the reality invo…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
