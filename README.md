@@ -117,7 +117,7 @@ currently:
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787710479/74f37d5190e35b94.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><b>Designing Idempotent Background Jobs: Retries, Locks, and the Exactly-Once Illusion</b></a><br><sub>Exactly-once processing doesn't exist in distributed systems—here's how to desig…</sub></td>
+    <td valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><b>Idempotent Background Jobs: Retries, Locks, Exactly-Once</b></a><br><sub>Exactly-once processing does not exist in distributed systems — here is how to d…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 26, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
