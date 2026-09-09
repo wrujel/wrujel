@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/narrowing-unknown-typescript-safer-than-any-91b916"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1788923171/7975643275dfa47b.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/narrowing-unknown-typescript-safer-than-any-91b916"><b>Stop Reaching for any: Narrowing unknown in TypeScript</b></a><br><sub>Why unknown is the type-safe replacement for any, and the narrowing patterns tha…</sub></td>
+    <td align="right" valign="top"><sub>📅 Sep 9, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-row-level-security-multi-tenant-apps-bdc678"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1788659053/3eabfb2cf6eaddea.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/postgres-row-level-security-multi-tenant-apps-bdc678"><b>Postgres Row-Level Security for Multi-Tenant Applications</b></a><br><sub>How to enforce tenant isolation at the database layer with Postgres RLS instead…</sub></td>
     <td align="right" valign="top"><sub>📅 Sep 6, 2026</sub><br><sub><code>security</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786788541/blog/bfb398f3-ed90-4c04-ba0f-3d59866eabf8_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><b>Idempotency Keys in Practice: Making Retries Safe</b></a><br><sub>How to design and implement idempotency keys so retried requests never double-ch…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 15, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786234133/blog/5fb6f8a2-0158-4663-bbfa-9a7972010636_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/cancellation-patterns-typescript-abortcontroller-28219a"><b>Cancellation Patterns in TypeScript: Taming AbortController</b></a><br><sub>Why most async TypeScript code ignores cancellation entirely, and how to build c…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 8, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
