@@ -149,21 +149,21 @@ currently:
 <!-- LEETCODE_START -->
 ### 🧩 LeetCode Insights
 
-> **3921** problems solved | **6** languages | **72** topics | **57%** avg acceptance
+> **4021** problems solved | **6** languages | **72** topics | **57%** avg acceptance
 
 #### Difficulty Breakdown
 
 | Difficulty | Solved | Progress |
 |:-----------|-------:|:---------|
-| 🟢 Easy | 944/944 | `████████████████████` 100.0% |
-| 🟡 Medium | 2048/2050 | `████████████████████` 99.9% |
-| 🔴 Hard | 929/930 | `████████████████████` 99.9% |
+| 🟢 Easy | 965/965 | `████████████████████` 100.0% |
+| 🟡 Medium | 2101/2103 | `████████████████████` 99.9% |
+| 🔴 Hard | 955/956 | `████████████████████` 99.9% |
 
 #### Top Languages
 
 <table>
 <tr><th>Language</th><th align="right">Problems</th><th align="right">Share</th></tr>
-<tr><td><img src="https://skillicons.dev/icons?i=rust" height="20" alt="rust" />&nbsp;&nbsp;Rust</td><td align="right">3456</td><td align="right">88%</td></tr>
+<tr><td><img src="https://skillicons.dev/icons?i=rust" height="20" alt="rust" />&nbsp;&nbsp;Rust</td><td align="right">3556</td><td align="right">88%</td></tr>
 <tr><td><img src="https://cdn.simpleicons.org/pandas" height="20" alt="pandas" />&nbsp;&nbsp;Pandas</td><td align="right">235</td><td align="right">6%</td></tr>
 <tr><td><img src="https://skillicons.dev/icons?i=mysql" height="20" alt="sql" />&nbsp;&nbsp;Sql</td><td align="right">103</td><td align="right">3%</td></tr>
 <tr><td><img src="https://skillicons.dev/icons?i=ts" height="20" alt="typescript" />&nbsp;&nbsp;Typescript</td><td align="right">67</td><td align="right">2%</td></tr>
