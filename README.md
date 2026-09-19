@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/http3-quic-backend-engineers-guide-2474c9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1789528021/9a9a4009f82f8812.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/http3-quic-backend-engineers-guide-2474c9"><b>HTTP/3 and QUIC: What Backend Engineers Should Know</b></a><br><sub>HTTP/3 replaces TCP with QUIC over UDP, eliminating head-of-line blocking at the…</sub></td>
+    <td align="right" valign="top"><sub>📅 Sep 16, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/narrowing-unknown-typescript-safer-than-any-91b916"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1788923171/7975643275dfa47b.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/narrowing-unknown-typescript-safer-than-any-91b916"><b>Stop Reaching for any: Narrowing unknown in TypeScript</b></a><br><sub>Why unknown is the type-safe replacement for any, and the narrowing patterns tha…</sub></td>
     <td align="right" valign="top"><sub>📅 Sep 9, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787393357/blog/fb4e4ee5-e96a-4ac5-89ae-4543cb40b782_image_1.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><b>Materialized Views in Postgres: Trading Freshness for Speed</b></a><br><sub>How to use materialized views to speed up expensive aggregations in Postgres wit…</sub></td>
     <td align="right" valign="top"><sub>📅 Aug 22, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1786788541/blog/bfb398f3-ed90-4c04-ba0f-3d59866eabf8_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/idempotency-keys-in-practice-safe-retries-4da26e"><b>Idempotency Keys in Practice: Making Retries Safe</b></a><br><sub>How to design and implement idempotency keys so retried requests never double-ch…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 15, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
