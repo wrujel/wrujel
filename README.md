@@ -46,9 +46,9 @@ currently:
 <table>
 <tr>
 <td align="center" valign="top" width="50%">
-<a href="https://leetcode.wrujel.website/"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
+<a href="https://leetcode-ui.wilfredo-rujel.workers.dev/"><img src="https://wsrv.nl/?url=https%3A%2F%2Fres.cloudinary.com%2Fdwovtydne%2Fvideo%2Fupload%2Fw_600%2Ch_300%2Cc_limit%2Ce_loop%2Cq_auto%2Cf_gif%2Cfl_lossy%2Cdl_100%2Fv1785989726%2F470eb70fc73758d9&w=600&h=300&fit=cover&n=30&output=webp" alt="leetcode-ui" width="100%"></a>
 <br/>
-<a href="https://leetcode.wrujel.website/"><b>leetcode-ui</b></a>
+<a href="https://leetcode-ui.wilfredo-rujel.workers.dev/"><b>leetcode-ui</b></a>
 <br/><sub>Personal LeetCode progress dashboard built with Astro 7 and React 19: track s...</sub>
 <br/><br/>
 <sub>⭐ 0 &nbsp;•&nbsp; 🍴 0 &nbsp;•&nbsp; <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" height="18"></sub>
@@ -110,33 +110,33 @@ currently:
 
 <table width="100%">
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/http3-quic-backend-engineers-guide-2474c9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1789528021/9a9a4009f82f8812.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/http3-quic-backend-engineers-guide-2474c9"><b>HTTP/3 and QUIC: What Backend Engineers Should Know</b></a><br><sub>HTTP/3 replaces TCP with QUIC over UDP, eliminating head-of-line blocking at the…</sub></td>
-    <td align="right" valign="top"><sub>📅 Sep 16, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/replication-lag-read-replicas-hidden-cost-5c78d9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1792552148/14107c224a14ed85.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/replication-lag-read-replicas-hidden-cost-5c78d9"><b>Replication Lag: The Hidden Cost of Read Replicas</b></a><br><sub>Why read replicas introduce stale reads, how replication lag breaks consistency…</sub></td>
+    <td align="right" valign="top"><sub>📅 Oct 21, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/narrowing-unknown-typescript-safer-than-any-91b916"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1788923171/7975643275dfa47b.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/narrowing-unknown-typescript-safer-than-any-91b916"><b>Stop Reaching for any: Narrowing unknown in TypeScript</b></a><br><sub>Why unknown is the type-safe replacement for any, and the narrowing patterns tha…</sub></td>
-    <td align="right" valign="top"><sub>📅 Sep 9, 2026</sub><br><sub><code>engineering</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/sqlite-production-backends-abfb58"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1791947319/102ada97d221998d.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/sqlite-production-backends-abfb58"><b>Why SQLite Deserves a Place in Your Backend Stack</b></a><br><sub>Not just for mobile apps: with WAL mode and the right replication strategy, SQLi…</sub></td>
+    <td align="right" valign="top"><sub>📅 Oct 14, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-row-level-security-multi-tenant-apps-bdc678"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1788659053/3eabfb2cf6eaddea.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/postgres-row-level-security-multi-tenant-apps-bdc678"><b>Postgres Row-Level Security for Multi-Tenant Applications</b></a><br><sub>How to enforce tenant isolation at the database layer with Postgres RLS instead…</sub></td>
-    <td align="right" valign="top"><sub>📅 Sep 6, 2026</sub><br><sub><code>security</code></sub><br><sub>⏱ 4 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/css-has-selector-practical-guide-dff8b0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1791342517/830d905f2eb7a197.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/css-has-selector-practical-guide-dff8b0"><b>The CSS :has() Selector: A Practical Guide</b></a><br><sub>How the :has() pseudo-class finally gives CSS a parent selector, and the pattern…</sub></td>
+    <td align="right" valign="top"><sub>📅 Oct 7, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787710479/74f37d5190e35b94.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/designing-idempotent-background-jobs-retries-locks-exactly-once-illusion-e1f557"><b>Idempotent Background Jobs: Retries, Locks, Exactly-Once</b></a><br><sub>Exactly-once processing does not exist in distributed systems — here is how to d…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 26, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graphql-federation-composing-supergraph-services-2394bd"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1790737649/7d45121b00abf75e.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/graphql-federation-composing-supergraph-services-2394bd"><b>GraphQL Federation: Splitting a Schema Without Splitting Teams</b></a><br><sub>A practical guide to GraphQL Federation for breaking up a monolithic schema acro…</sub></td>
+    <td align="right" valign="top"><sub>📅 Sep 30, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
   <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1787393357/blog/fb4e4ee5-e96a-4ac5-89ae-4543cb40b782_image_1.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/postgres-materialized-views-tradeoffs-production-0d1d35"><b>Materialized Views in Postgres: Trading Freshness for Speed</b></a><br><sub>How to use materialized views to speed up expensive aggregations in Postgres wit…</sub></td>
-    <td align="right" valign="top"><sub>📅 Aug 22, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/css-anchor-positioning-tooltips-without-js-6ae68a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1790132837/2d7b4339e52ae4aa.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/css-anchor-positioning-tooltips-without-js-6ae68a"><b>CSS Anchor Positioning: The End of Popper.js</b></a><br><sub>CSS anchor positioning lets you position tooltips, popovers, and menus relative…</sub></td>
+    <td align="right" valign="top"><sub>📅 Sep 23, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
@@ -170,7 +170,7 @@ currently:
 <tr><td><img src="https://skillicons.dev/icons?i=cpp" height="20" alt="cpp" />&nbsp;&nbsp;Cpp</td><td align="right">56</td><td align="right">1%</td></tr>
 </table>
 
-<p align="right"><a href="https://leetcode.wrujel.website/">📊 Full Dashboard →</a></p>
+<p align="right"><a href="https://leetcode-ui.wilfredo-rujel.workers.dev/">📊 Full Dashboard →</a></p>
 <!-- LEETCODE_END -->
 
 ---
