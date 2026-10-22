@@ -1,3 +1,5 @@
+import { getProjectUrl } from "./monitor-repos";
+
 interface RepoNode {
   name: string;
   description: string | null;
@@ -34,7 +36,6 @@ interface PortfolioApiResponse {
 }
 
 const GITHUB_GRAPHQL = "https://api.github.com/graphql";
-const PORTFOLIO_API = "https://wrujel.com/api/projects/latest";
 const USERNAME = "wrujel";
 
 const QUERY = `
@@ -78,7 +79,10 @@ function isHttpUrl(value: unknown): value is string {
   return typeof value === "string" && /^https?:\/\//.test(value);
 }
 
-function renderProjectCards(projects: LatestProject[]): string {
+function renderProjectCards(
+  projects: LatestProject[],
+  portfolioUrl: string,
+): string {
   const COLS = 2;
   const rows: string[] = [];
 
@@ -136,24 +140,29 @@ function renderProjectCards(projects: LatestProject[]): string {
     rows.join("\n"),
     "</table>",
     "",
-    `<p align="right"><a href="https://wrujel.com/projects">🚀 More Projects →</a></p>`,
+    `<p align="right"><a href="${portfolioUrl}/projects">🚀 More Projects →</a></p>`,
   ].join("\n");
 }
 
 export async function fetchFeaturedProjects(): Promise<string> {
+  const portfolioUrl = await getProjectUrl("portfolio");
+
   // Primary: portfolio API (has project images + same ordering as /projects page)
   try {
-    const res = await fetch(PORTFOLIO_API, {
+    const res = await fetch(`${portfolioUrl}/api/projects/latest`, {
       headers: { "User-Agent": "wrujel-profile-readme" },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const json = (await res.json()) as PortfolioApiResponse;
     const projects = json.projects ?? [];
     if (projects.length > 0) {
-      return renderProjectCards(projects);
+      return renderProjectCards(projects, portfolioUrl);
     }
   } catch (err) {
-    console.warn("Portfolio API unavailable, falling back to GitHub GraphQL:", err);
+    console.warn(
+      "Portfolio API unavailable, falling back to GitHub GraphQL:",
+      err,
+    );
   }
 
   // Fallback: GitHub GraphQL with GitHub OG images
@@ -189,7 +198,7 @@ export async function fetchFeaturedProjects(): Promise<string> {
       homepage: null,
     }));
 
-    return renderProjectCards(projects);
+    return renderProjectCards(projects, portfolioUrl);
   } catch (err) {
     console.error("Failed to fetch GitHub repos:", err);
     return "";

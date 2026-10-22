@@ -41,13 +41,22 @@ jobs:
             fi
           }
 
+          # Project URLs come from monitor-repos, same as the README build
+          PROJECTS_JSON="https://raw.githubusercontent.com/wrujel/monitor-repos/main/data/projects.json"
+          PROJECTS=$(curl -sf --max-time 15 --retry 2 "$PROJECTS_JSON" || echo "[]")
+
+          project_url() {
+            echo "$PROJECTS" | jq -r --arg repo "$1" '.[] | select(.repo == $repo) | .url | sub("/+$"; "")'
+          }
+
           check_url "capsule-render"    "https://capsule-render.vercel.app"
           check_url "readme-typing-svg" "https://readme-typing-svg.demolab.com"
           check_url "streak-stats"      "https://streak-stats.demolab.com"
           check_url "skillicons"        "https://skillicons.dev"
-          check_url "wrujel.com"        "https://wrujel.com/api/projects/latest"
-          check_url "leetcode-tracker"  "https://leetcode.wrujel.website"
-          check_url "blog-api"          "https://blog.wrujel.com/api/latest"
+          check_url "monitor-repos"     "$PROJECTS_JSON"
+          check_url "portfolio-api"     "$(project_url portfolio)/api/projects/latest"
+          check_url "leetcode-api"      "$(project_url leetcode-ui)/api/insights"
+          check_url "blog-api"          "$(project_url blog)/api/latest"
 
           echo "failures=$FAILURES" >> "$GITHUB_OUTPUT"
 

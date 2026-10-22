@@ -1,3 +1,5 @@
+import { getProjectUrl } from "./monitor-repos";
+
 interface DifficultyBreakdown {
   difficulty: string;
   solved: number;
@@ -34,8 +36,6 @@ interface InsightsResponse {
     languageDistribution: LanguageDistribution[];
   };
 }
-
-const LEETCODE_API = "https://leetcode.wrujel.website/api/insights";
 
 function progressBar(value: number, max: number, length = 20): string {
   const filled = Math.round((value / max) * length);
@@ -82,8 +82,12 @@ function languageIcon(lang: string): string {
 }
 
 export async function fetchLeetCodeInsights(): Promise<string> {
+  // Outside the try: with no dashboard URL there is nothing to link the
+  // fallback message to, so let the build restore the last-good section.
+  const dashboardUrl = await getProjectUrl("leetcode-ui");
+
   try {
-    const res = await fetch(LEETCODE_API);
+    const res = await fetch(`${dashboardUrl}/api/insights`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const json = (await res.json()) as InsightsResponse;
@@ -134,7 +138,7 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     lines.push("");
 
     lines.push(
-      `<p align="right"><a href="https://leetcode.wrujel.website/">📊 Full Dashboard →</a></p>`,
+      `<p align="right"><a href="${dashboardUrl}/">📊 Full Dashboard →</a></p>`,
     );
 
     return lines.join("\n");
@@ -143,7 +147,7 @@ export async function fetchLeetCodeInsights(): Promise<string> {
     return [
       "### 🧩 LeetCode Insights",
       "",
-      "> Stats temporarily unavailable. Visit the [full dashboard](https://leetcode.wrujel.website/) for details.",
+      `> Stats temporarily unavailable. Visit the [full dashboard](${dashboardUrl}/) for details.`,
     ].join("\n");
   }
 }

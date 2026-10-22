@@ -1,3 +1,5 @@
+import { getProjectUrl } from "./monitor-repos";
+
 interface BlogPost {
   title: string;
   slug: string;
@@ -18,9 +20,6 @@ interface RssItem {
   link: string;
   pubDate: string;
 }
-
-const BLOG_API = "https://blog.wrujel.com/api/latest";
-const BLOG_RSS = "https://blog.wrujel.com/feed.xml";
 
 function formatDate(dateStr: string): string {
   const d = new Date(dateStr);
@@ -62,9 +61,9 @@ function parseRssItems(xml: string): RssItem[] {
   return items.slice(0, 5);
 }
 
-async function fetchFromApi(): Promise<string | null> {
+async function fetchFromApi(blogUrl: string): Promise<string | null> {
   try {
-    const res = await fetch(BLOG_API);
+    const res = await fetch(`${blogUrl}/api/latest`);
     if (!res.ok) return null;
 
     const json = (await res.json()) as BlogApiResponse;
@@ -78,17 +77,19 @@ async function fetchFromApi(): Promise<string | null> {
 
       const metaParts: string[] = [];
       if (post.date) metaParts.push(`<sub>📅 ${formatDate(post.date)}</sub>`);
-      if (post.category) metaParts.push(`<sub><code>${post.category}</code></sub>`);
-      if (post.readingTime) metaParts.push(`<sub>⏱ ${post.readingTime} min read</sub>`);
+      if (post.category)
+        metaParts.push(`<sub><code>${post.category}</code></sub>`);
+      if (post.readingTime)
+        metaParts.push(`<sub>⏱ ${post.readingTime} min read</sub>`);
       const meta = metaParts.join("<br>");
 
       rows.push(
         `  <tr>\n` +
-        `    <td width="76" align="center" valign="top">${thumb}</td>\n` +
-        `    <td valign="top"><a href="${post.url}"><b>${post.title}</b></a><br><sub>${truncate(post.description, 80)}</sub></td>\n` +
-        `    <td align="right" valign="top">${meta}</td>\n` +
-        `  </tr>\n` +
-        `  <tr><td colspan="3" height="6"></td></tr>`,
+          `    <td width="76" align="center" valign="top">${thumb}</td>\n` +
+          `    <td valign="top"><a href="${post.url}"><b>${post.title}</b></a><br><sub>${truncate(post.description, 80)}</sub></td>\n` +
+          `    <td align="right" valign="top">${meta}</td>\n` +
+          `  </tr>\n` +
+          `  <tr><td colspan="3" height="6"></td></tr>`,
       );
     }
 
@@ -98,9 +99,9 @@ async function fetchFromApi(): Promise<string | null> {
   }
 }
 
-async function fetchFromRss(): Promise<string | null> {
+async function fetchFromRss(blogUrl: string): Promise<string | null> {
   try {
-    const res = await fetch(BLOG_RSS);
+    const res = await fetch(`${blogUrl}/feed.xml`);
     if (!res.ok) return null;
 
     const xml = await res.text();
@@ -119,9 +120,11 @@ async function fetchFromRss(): Promise<string | null> {
 }
 
 export async function fetchBlogPosts(): Promise<string> {
+  const blogUrl = await getProjectUrl("blog");
   const lines: string[] = ["### ✍️ Latest Blog Posts", ""];
 
-  const content = (await fetchFromApi()) ?? (await fetchFromRss());
+  const content =
+    (await fetchFromApi(blogUrl)) ?? (await fetchFromRss(blogUrl));
 
   if (content) {
     lines.push(content);
@@ -130,9 +133,7 @@ export async function fetchBlogPosts(): Promise<string> {
   }
 
   lines.push("");
-  lines.push(
-    `<p align="right"><a href="https://blog.wrujel.com/">📖 Read more →</a></p>`,
-  );
+  lines.push(`<p align="right"><a href="${blogUrl}/">📖 Read more →</a></p>`);
 
   return lines.join("\n");
 }
