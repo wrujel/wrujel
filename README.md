@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/implementing-passkeys-webauthn-guide-a291c7"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1793156991/62c27b7164b5125e.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/implementing-passkeys-webauthn-guide-a291c7"><b>Implementing Passkeys: A Practical WebAuthn Guide</b></a><br><sub>A practical guide to implementing passkeys with WebAuthn, from registration cere…</sub></td>
+    <td align="right" valign="top"><sub>📅 Oct 28, 2026</sub><br><sub><code>security</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/replication-lag-read-replicas-hidden-cost-5c78d9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1792552148/14107c224a14ed85.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/replication-lag-read-replicas-hidden-cost-5c78d9"><b>Replication Lag: The Hidden Cost of Read Replicas</b></a><br><sub>Why read replicas introduce stale reads, how replication lag breaks consistency…</sub></td>
     <td align="right" valign="top"><sub>📅 Oct 21, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graphql-federation-composing-supergraph-services-2394bd"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1790737649/7d45121b00abf75e.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/graphql-federation-composing-supergraph-services-2394bd"><b>GraphQL Federation: Splitting a Schema Without Splitting Teams</b></a><br><sub>A practical guide to GraphQL Federation for breaking up a monolithic schema acro…</sub></td>
     <td align="right" valign="top"><sub>📅 Sep 30, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/css-anchor-positioning-tooltips-without-js-6ae68a"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1790132837/2d7b4339e52ae4aa.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/css-anchor-positioning-tooltips-without-js-6ae68a"><b>CSS Anchor Positioning: The End of Popper.js</b></a><br><sub>CSS anchor positioning lets you position tooltips, popovers, and menus relative…</sub></td>
-    <td align="right" valign="top"><sub>📅 Sep 23, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
