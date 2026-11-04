@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graphql-persisted-queries-performance-security-954452"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1793761802/80b735e772937683.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/graphql-persisted-queries-performance-security-954452"><b>GraphQL Persisted Queries: Smaller Payloads, Smaller Attack Surface</b></a><br><sub>How persisted queries shrink GraphQL payloads, unlock CDN caching, and close off…</sub></td>
+    <td align="right" valign="top"><sub>📅 Nov 4, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/implementing-passkeys-webauthn-guide-a291c7"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1793156991/62c27b7164b5125e.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/implementing-passkeys-webauthn-guide-a291c7"><b>Implementing Passkeys: A Practical WebAuthn Guide</b></a><br><sub>A practical guide to implementing passkeys with WebAuthn, from registration cere…</sub></td>
     <td align="right" valign="top"><sub>📅 Oct 28, 2026</sub><br><sub><code>security</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/css-has-selector-practical-guide-dff8b0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1791342517/830d905f2eb7a197.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/css-has-selector-practical-guide-dff8b0"><b>The CSS :has() Selector: A Practical Guide</b></a><br><sub>How the :has() pseudo-class finally gives CSS a parent selector, and the pattern…</sub></td>
     <td align="right" valign="top"><sub>📅 Oct 7, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graphql-federation-composing-supergraph-services-2394bd"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1790737649/7d45121b00abf75e.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/graphql-federation-composing-supergraph-services-2394bd"><b>GraphQL Federation: Splitting a Schema Without Splitting Teams</b></a><br><sub>A practical guide to GraphQL Federation for breaking up a monolithic schema acro…</sub></td>
-    <td align="right" valign="top"><sub>📅 Sep 30, 2026</sub><br><sub><code>architecture</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
