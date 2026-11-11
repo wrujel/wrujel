@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/javascript-temporal-api-date-time-handling-c9c1bb"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1794366634/150d8d5cbd8d016f.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/javascript-temporal-api-date-time-handling-c9c1bb"><b>The JavaScript Temporal API: Date Handling Done Right</b></a><br><sub>Why the Temporal API fixes decades of JavaScript date bugs, and how to migrate o…</sub></td>
+    <td align="right" valign="top"><sub>📅 Nov 11, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/graphql-persisted-queries-performance-security-954452"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1793761802/80b735e772937683.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/graphql-persisted-queries-performance-security-954452"><b>GraphQL Persisted Queries: Smaller Payloads, Smaller Attack Surface</b></a><br><sub>How persisted queries shrink GraphQL payloads, unlock CDN caching, and close off…</sub></td>
     <td align="right" valign="top"><sub>📅 Nov 4, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 5 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/sqlite-production-backends-abfb58"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1791947319/102ada97d221998d.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/sqlite-production-backends-abfb58"><b>Why SQLite Deserves a Place in Your Backend Stack</b></a><br><sub>Not just for mobile apps: with WAL mode and the right replication strategy, SQLi…</sub></td>
     <td align="right" valign="top"><sub>📅 Oct 14, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/css-has-selector-practical-guide-dff8b0"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1791342517/830d905f2eb7a197.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/css-has-selector-practical-guide-dff8b0"><b>The CSS :has() Selector: A Practical Guide</b></a><br><sub>How the :has() pseudo-class finally gives CSS a parent selector, and the pattern…</sub></td>
-    <td align="right" valign="top"><sub>📅 Oct 7, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
