@@ -110,6 +110,12 @@ currently:
 
 <table width="100%">
   <tr>
+    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/view-transitions-api-native-page-animations-f35e4c"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1794971435/f3ec53c762db2e11.webp" width="72" height="72" /></a></td>
+    <td valign="top"><a href="https://blog.wrujel.com/view-transitions-api-native-page-animations-f35e4c"><b>The View Transitions API: Native Page Animations</b></a><br><sub>How the View Transitions API replaces animation libraries for page and state cha…</sub></td>
+    <td align="right" valign="top"><sub>📅 Nov 18, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
+  </tr>
+  <tr><td colspan="3" height="6"></td></tr>
+  <tr>
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/javascript-temporal-api-date-time-handling-c9c1bb"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1794366634/150d8d5cbd8d016f.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/javascript-temporal-api-date-time-handling-c9c1bb"><b>The JavaScript Temporal API: Date Handling Done Right</b></a><br><sub>Why the Temporal API fixes decades of JavaScript date bugs, and how to migrate o…</sub></td>
     <td align="right" valign="top"><sub>📅 Nov 11, 2026</sub><br><sub><code>frontend</code></sub><br><sub>⏱ 4 min read</sub></td>
@@ -131,12 +137,6 @@ currently:
     <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/replication-lag-read-replicas-hidden-cost-5c78d9"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1792552148/14107c224a14ed85.webp" width="72" height="72" /></a></td>
     <td valign="top"><a href="https://blog.wrujel.com/replication-lag-read-replicas-hidden-cost-5c78d9"><b>Replication Lag: The Hidden Cost of Read Replicas</b></a><br><sub>Why read replicas introduce stale reads, how replication lag breaks consistency…</sub></td>
     <td align="right" valign="top"><sub>📅 Oct 21, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
-  </tr>
-  <tr><td colspan="3" height="6"></td></tr>
-  <tr>
-    <td width="76" align="center" valign="top"><a href="https://blog.wrujel.com/sqlite-production-backends-abfb58"><img src="https://res.cloudinary.com/dwovtydne/image/upload/w_72,h_72,c_fill/f_auto,q_auto/v1791947319/102ada97d221998d.webp" width="72" height="72" /></a></td>
-    <td valign="top"><a href="https://blog.wrujel.com/sqlite-production-backends-abfb58"><b>Why SQLite Deserves a Place in Your Backend Stack</b></a><br><sub>Not just for mobile apps: with WAL mode and the right replication strategy, SQLi…</sub></td>
-    <td align="right" valign="top"><sub>📅 Oct 14, 2026</sub><br><sub><code>backend</code></sub><br><sub>⏱ 4 min read</sub></td>
   </tr>
   <tr><td colspan="3" height="6"></td></tr>
 </table>
